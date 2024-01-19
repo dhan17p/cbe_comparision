@@ -1,99 +1,106 @@
-<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:macros="sap.fe.macros"  xmlns:uxap="sap.uxap">
-	<VBox id="vb1">
-		<!-- <Button id="b1" core:require="{ handler: 'cbecomp/ext/fragment/Fragment'}" text="Fragment" press="handler.onPress" /> -->
-		<ScrollContainer id='se1'>
-		<HBox id='hb1'>
-		
-				<uxap:ObjectPageSection id="obj1"> 
-					<uxap:subSections>
-						<uxap:ObjectPageSubSection id='subsect1'>
-							<u:Table id="table1" selectionMode="MultiToggle" visibleRowCount="10" rows="{/odata/v4/Item}">
-        <u:columns>
-            <u:Column id='col1'>
-                <u:Label id='lab1' text="Item No."/>
-                <u:template>
-                    <Text id='txt1' text="{itemno}"/>
-                </u:template>
-            </u:Column>
+<core:FragmentDefinition xmlns:core="sap.ui.core"
+    xmlns="sap.m"
+    xmlns:macros="sap.fe.macros"
+    xmlns:uxap="sap.uxap">
+    <VBox id="vb1">
+        <!-- <Button id="b1" core:require="{ handler: 'cbecomp/ext/fragment/Fragment'}" text="Fragment" press="handler.onPress" /> -->
+        <ScrollContainer id='se1'>
+            <HBox id='hb1'>
 
-            <u:Column id='col2'>
-                <u:Label id='lab2' text="Items Desc"/>
-                <u:template>
-                    <Text id='txt2' text="{itemname}"/>
-                </u:template>
-            </u:Column>
+                <uxap:ObjectPageSection id="obj1">
+                    <uxap:subSections>
+                        <uxap:ObjectPageSubSection id='subsect1'>
+                            <Table id="myTable" items="{/Item}">
+                                <!-- Define columns and bindings for the table -->
+                                <columns>
+                                    <Column id="col1">
+                                        <Text id="t1" text="Column 1" />
+                                    </Column>
+                                    <Column id="col22">
+                                        <Text id="t2" text="Column 2" />
+                                    </Column>
+                                    <!-- Add more columns if needed -->
+                                </columns>
+                                <items>
+                                    <ColumnListItem id="item">
+                                        <cells>
+                                            <Text id="t23" text="{itemno}" />
+                                            <Text id="tab2" text="{itemname}" />
+                                            <!-- Bind other properties accordingly -->
+                                        </cells>
+                                    </ColumnListItem>
+                                </items>
+                            </Table>
+                        </uxap:ObjectPageSubSection>
+                        <uxap:ObjectPageSubSection id='subsect2'>
+                            <VBox id='v211'>
+                                <Button id="b211" core:require="{ handler: 'cbecomp/ext/fragment/Fragment'}" text="Fragment" press="handler.onPress" />
+                            </VBox>
+                        </uxap:ObjectPageSubSection>
+                    </uxap:subSections>
+                </uxap:ObjectPageSection>
+                <uxap:ObjectPageSection id="obj11">
+                    <uxap:subSections>
+                        <uxap:ObjectPageSubSection id='subsect11'>
+                            <VBox id='v21131111'>
+                                <Button id="b2111" core:require="{ handler: 'cbecomp/ext/fragment/Fragment'}" text="Fragment" press="handler.onPress" />
+                            </VBox>
+                        </uxap:ObjectPageSubSection>
+                        <uxap:ObjectPageSubSection id='subsect21'>
+                            <VBox id='v211111'>
+                                <Button id="b21221" core:require="{ handler: 'cbecomp/ext/fragment/Fragment'}" text="Fragment" press="handler.onPress" />
+                            </VBox>
+                        </uxap:ObjectPageSubSection>
+                    </uxap:subSections>
+                </uxap:ObjectPageSection>
+                <uxap:ObjectPageSection id="newObjectPageSection">
+                    <uxap:subSections>
+                        <uxap:ObjectPageSubSection id='newSubSection1'>
+                            <VBox id='newVBox1'>
+                                <Button id="newButton1" core:require="{ handler: 'cbecomp/ext/fragment/Fragment'}" text="Fragment" press="handler.onPress" />
+                            </VBox>
+                        </uxap:ObjectPageSubSection>
+                        <uxap:ObjectPageSubSection id='newSubSection2'>
+                            <VBox id='newVBox2'>
+                                <Button id="newButton2" core:require="{ handler: 'cbecomp/ext/fragment/Fragment'}" text="Fragment" press="handler.onPress" />
+                            </VBox>
+                        </uxap:ObjectPageSubSection>
+                    </uxap:subSections>
+                </uxap:ObjectPageSection>
 
-            <!-- Add more columns for other properties of the Item entity -->
+                <uxap:ObjectPageSection id="newObjectPageSection1">
+                    <uxap:subSections>
+                        <uxap:ObjectPageSubSection id='newSubSection11'>
+                            <VBox id='newVBox11'>
+                                <Button id="newButton1111" core:require="{ handler: 'cbecomp/ext/fragment/Fragment'}" text="Fragment" press="handler.onPress" />
+                            </VBox>
+                        </uxap:ObjectPageSubSection>
+                        <uxap:ObjectPageSubSection id='newSubSection21'>
+                            <VBox id='newVBox23'>
+                                <Button id="newButton23" core:require="{ handler: 'cbecomp/ext/fragment/Fragment'}" text="Fragment" press="handler.onPress" />
+                            </VBox>
+                        </uxap:ObjectPageSubSection>
+                    </uxap:subSections>
+                </uxap:ObjectPageSection>
 
-        </u:columns>
-
-        <!-- Add more configuration and binding as needed -->
-
-    </u:Table>
-						</uxap:ObjectPageSubSection>
-						<uxap:ObjectPageSubSection id='subsect2'>
-							<VBox id='v211'><Button id="b211" core:require="{ handler: 'cbecomp/ext/fragment/Fragment'}" text="Fragment" press="handler.onPress" /></VBox>
-						</uxap:ObjectPageSubSection>
-					</uxap:subSections>
-				</uxap:ObjectPageSection>
-				<uxap:ObjectPageSection id="obj11"> 
-					<uxap:subSections>
-						<uxap:ObjectPageSubSection id='subsect11'>
-							<VBox id='v21131111'><Button id="b2111" core:require="{ handler: 'cbecomp/ext/fragment/Fragment'}" text="Fragment" press="handler.onPress" /></VBox>
-						</uxap:ObjectPageSubSection>
-						<uxap:ObjectPageSubSection id='subsect21'>
-							<VBox id='v211111'><Button id="b21221" core:require="{ handler: 'cbecomp/ext/fragment/Fragment'}" text="Fragment" press="handler.onPress" /></VBox>
-						</uxap:ObjectPageSubSection>
-					</uxap:subSections>
-				</uxap:ObjectPageSection>
-				<uxap:ObjectPageSection id="newObjectPageSection">
-    <uxap:subSections>
-        <uxap:ObjectPageSubSection id='newSubSection1'>
-            <VBox id='newVBox1'>
-                <Button id="newButton1" core:require="{ handler: 'cbecomp/ext/fragment/Fragment'}" text="Fragment" press="handler.onPress" />
-            </VBox>
-        </uxap:ObjectPageSubSection>
-        <uxap:ObjectPageSubSection id='newSubSection2'>
-            <VBox id='newVBox2'>
-                <Button id="newButton2" core:require="{ handler: 'cbecomp/ext/fragment/Fragment'}" text="Fragment" press="handler.onPress" />
-            </VBox>
-        </uxap:ObjectPageSubSection>
-    </uxap:subSections>
-</uxap:ObjectPageSection>
-
-<uxap:ObjectPageSection id="newObjectPageSection1">
-    <uxap:subSections>
-        <uxap:ObjectPageSubSection id='newSubSection11'>
-            <VBox id='newVBox11'>
-                <Button id="newButton1111" core:require="{ handler: 'cbecomp/ext/fragment/Fragment'}" text="Fragment" press="handler.onPress" />
-            </VBox>
-        </uxap:ObjectPageSubSection>
-        <uxap:ObjectPageSubSection id='newSubSection21'>
-            <VBox id='newVBox23'>
-                <Button id="newButton23" core:require="{ handler: 'cbecomp/ext/fragment/Fragment'}" text="Fragment" press="handler.onPress" />
-            </VBox>
-        </uxap:ObjectPageSubSection>
-    </uxap:subSections>
-</uxap:ObjectPageSection>
-
-<uxap:ObjectPageSection id="newObjectPageSection15">
-    <uxap:subSections>
-        <uxap:ObjectPageSubSection id='newSubSection115'>
-            <VBox id='newVBox115'>
-                <Button id="newButton11115" core:require="{ handler: 'cbecomp/ext/fragment/Fragment'}" text="Fragment" press="handler.onPress" />
-            </VBox>
-        </uxap:ObjectPageSubSection>
-        <uxap:ObjectPageSubSection id='newSubSection251'>
-            <VBox id='newVBox235'>
-                <Button id="newButton253" core:require="{ handler: 'cbecomp/ext/fragment/Fragment'}" text="Fragment" press="handler.onPress" />
-            </VBox>
-        </uxap:ObjectPageSubSection>
-    </uxap:subSections>
-</uxap:ObjectPageSection>
+                <uxap:ObjectPageSection id="newObjectPageSection15">
+                    <uxap:subSections>
+                        <uxap:ObjectPageSubSection id='newSubSection115'>
+                            <VBox id='newVBox115'>
+                                <Button id="newButton11115" core:require="{ handler: 'cbecomp/ext/fragment/Fragment'}" text="Fragment" press="handler.onPress" />
+                            </VBox>
+                        </uxap:ObjectPageSubSection>
+                        <uxap:ObjectPageSubSection id='newSubSection251'>
+                            <VBox id='newVBox235'>
+                                <Button id="newButton253" core:require="{ handler: 'cbecomp/ext/fragment/Fragment'}" text="Fragment" press="handler.onPress" />
+                            </VBox>
+                        </uxap:ObjectPageSubSection>
+                    </uxap:subSections>
+                </uxap:ObjectPageSection>
 
 
-				
-				<!-- <VBox id='v2'><Button id="b2" core:require="{ handler: 'cbecomp/ext/fragment/Fragment'}" text="Fragment" press="handler.onPress" /></VBox>
+
+                <!-- <VBox id='v2'><Button id="b2" core:require="{ handler: 'cbecomp/ext/fragment/Fragment'}" text="Fragment" press="handler.onPress" /></VBox>
 				<VBox id='v3'><Button id="b3" core:require="{ handler: 'cbecomp/ext/fragment/Fragment'}" text="Fragment" press="handler.onPress" /></VBox>
 				<VBox id='v4'><Button id="b4" core:require="{ handler: 'cbecomp/ext/fragment/Fragment'}" text="Fragment" press="handler.onPress" /></VBox>
 				<VBox id='v5'><Button id="b5" core:require="{ handler: 'cbecomp/ext/fragment/Fragment'}" text="Fragment" press="handler.onPress" /></VBox>
@@ -102,7 +109,7 @@
 				<VBox id='v8'><Button id="b8" core:require="{ handler: 'cbecomp/ext/fragment/Fragment'}" text="Fragment" press="handler.onPress" /></VBox>
 				<VBox id='v9'><Button id="b9" core:require="{ handler: 'cbecomp/ext/fragment/Fragment'}" text="Fragment" press="handler.onPress" /></VBox> -->
 
-		</HBox>
-		</ScrollContainer>
-	</VBox>
+            </HBox>
+        </ScrollContainer>
+    </VBox>
 </core:FragmentDefinition>
