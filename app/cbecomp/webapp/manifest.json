@@ -84,7 +84,6 @@
             "css": []
         },
         "routing": {
-            "config": {},
             "routes": [
                 {
                     "pattern": ":?query:",
@@ -133,6 +132,17 @@
                                 "supplier_rel": {
                                     "detail": {
                                         "route": "supplierObjectPage"
+                                    }
+                                }
+                            },
+                            "content": {
+                                "body": {
+                                    "sections": {
+                                        "Fragment": {
+                                            "template": "cbecomp.ext.fragment.Fragment",
+                                            "title": "fragment",
+                                            "type": "XMLFragment"
+                                        }
                                     }
                                 }
                             }
