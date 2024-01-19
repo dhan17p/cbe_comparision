@@ -1,5 +1,22 @@
 namespace CBE;
 
+entity Item {
+    key itemno              : Integer @Common.Label: 'Item No.';
+        itemname            : String  @Common.Label: 'Items Desc';
+        indent              : String  @Common.Label: 'Indent';
+        client              : String  @Common.Label: 'Client';
+        project             : String  @Common.Label: 'Project';
+        capacity_each       : String  @Common.Label: 'Capacity each(Cu mtr)';
+        dia_mm              : String  @Common.Label: 'Dia mm';
+        tl_to_tl_length     : String  @Common.Label: 'TL to TL length';
+        moc                 : String  @Common.Label: 'MOC';
+        design_pressure_bar : String  @Common.Label: 'Design Pressure bar';
+        weights             : String  @Common.Label: 'Weights(kgs)';
+        quantity            : String  @Common.Label: 'Qty No.';
+        supplier_rel        : Association to many Supplier
+                                  on supplier_rel.itemno = itemno;
+}
+
 //test
 entity Supplier {
     key supplier_no          : Integer;
@@ -52,21 +69,4 @@ entity Supp_offer {
         total_basic_price_include_tax2 : Integer @Common.Label: 'Total Basic Price including packing, marking & forwarding, Transportation including Taxes';
         Spares_two_years               : String  @Common.Label: 'Spares for 2 Years operation';
         Per_diem_rate                  : Integer @Common.Label: 'Per Diem rate for Supervision for Erection and commissioning';
-}
-
-entity Item {
-    key itemno              : Integer @Common.Label: 'Item No.';
-        itemname            : String  @Common.Label: 'Items Desc';
-        indent              : String  @Common.Label: 'Indent';
-        client              : String  @Common.Label: 'Client';
-        project             : String  @Common.Label: 'Project';
-        capacity_each       : String  @Common.Label: 'Capacity each(Cu mtr)';
-        dia_mm              : String  @Common.Label: 'Dia mm';
-        tl_to_tl_length     : String  @Common.Label: 'TL to TL length';
-        moc                 : String  @Common.Label: 'MOC';
-        design_pressure_bar : String  @Common.Label: 'Design Pressure bar';
-        weights             : String  @Common.Label: 'Weights(kgs)';
-        quantity            : String  @Common.Label: 'Qty No.';
-        supplier_rel        : Association to many Supplier
-                                  on supplier_rel.itemno = itemno;
 }
