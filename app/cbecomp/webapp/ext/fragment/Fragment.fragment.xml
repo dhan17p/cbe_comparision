@@ -98,26 +98,26 @@
                     <columns>
 
                         <Column id="col2">
-                            <Text id="t2" text="Item Description" wrapping="false" />
+                            <Text id="t2" text="Item Desc" wrapping="false" />
                         </Column>
                         <Column id="col3">
-                            <Text id="t3" text="Capacity each(mtr)" wrapping="false" />
+                            <Text id="t3" text="Cap each" tooltip="Capacity each(in mtr)" wrapping="false" />
                         </Column>
                         <Column id="col4">
                             <Text id="t4" text="Dia mm" wrapping="false" />
                         </Column>
                         <Column id="col5">
-                            <Text id="t5" text="TL to TL Length" wrapping="false" />
+                            <Text id="t5" text="TL-TL" tooltip="TL to TL Length (in mm)" wrapping="false" />
                         </Column>
 
                         <Column id="col6">
                             <Text id="t6" text="MOC" wrapping="false"/>
                         </Column>
                         <Column id="col7">
-                            <Text id="t7" text="Design Pressure Bar" wrapping="false" />
+                            <Text id="t7" text="DPB" tooltip="Design Pressure Bar" wrapping="false" />
                         </Column>
                         <Column id="col8">
-                            <Text id="t8" text="Weight (kgs)" wrapping="false" />
+                            <Text id="t8" text="Wgh" tooltip="Weight (in Kgs)" wrapping="false" />
                         </Column>
                         <Column id="col9">
                             <Text id="t9" text=" Qty No" wrapping="false" />
@@ -344,8 +344,7 @@
                                             <Label id="labelNewID" text="" />
                                         </HBox>
                                         <HBox id="hBox2NewID" alignItems="End">
-                                            <Label design="Bold" id="itemNewID" text="Total Basic Price including packing, marking and forwarding, Transportation excluding Taxes						
-" />
+                                            <Label design="Bold" id="itemNewID" text="Total Basic Price including packing, marking and....." tooltip="Total Basic Price including packing, marking and forwarding, Transportation excluding Taxes" />
                                         </HBox>
                                     </HBox>
                                 </form:fields>
@@ -537,8 +536,8 @@
             </form:Form>
 
         </VBox>
-        <ScrollContainer width="90vw" height="auto" horizontal="true" vertical="false" id="scrollContainer">
-            <HBox id="secondSection" width="100vw" wrap="NoWrap">
+        <ScrollContainer width="140%" height="auto" horizontal="true" vertical="false" id="scrollContainer">
+            <HBox id="secondSection" width="150%" wrap="NoWrap">
                 <VBox id="sectionform1">
                     <form:Form id="sectionform112" editable="false">
                         <form:layout>
@@ -1600,7 +1599,7 @@
                                             </HBox>
                                         </form:fields>
                                     </form:FormElement>
-                                    <form:FormElement id="1s23z" >
+                                    <form:FormElement id="1s23z">
                                         <form:fields>
                                             <HBox id="hb1s14z" justifyContent="Center">
                                                 <Text id="itemdwname2z" text="Tamil Nadu" />
@@ -1931,6 +1930,102 @@
                         </VBox>
 
                     </HBox>
+                    <form:Form id="sectionform112222q" editable="false">
+                        <form:layout>
+                            <form:ResponsiveGridLayout id="r2esp112q" labelSpanXL="4" labelSpanL="3" labelSpanM="4" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="0" emptySpanL="4" emptySpanM="0" emptySpanS="0" columnsXL="2" columnsL="1" columnsM="1" singleContainerFullSize="false" />
+                        </form:layout>
+                        <form:formContainers>
+                            <form:FormContainer id="fg12q" ariaLabelledBy="Title">
+                                <form:formElements>
+                                    <form:FormElement id="112s22q">
+                                        <form:fields>
+                                            <HBox id="hbo212x1q" height="17px">
+                                                <Text id="i2temdname2q" text="FOR Site"/>
+                                            </HBox>
+                                        </form:fields>
+                                    </form:FormElement>
+                                    <form:FormElement id="112s2221q">
+                                        <form:fields>
+                                            <HBox id="hbo1212x2q" height="20px">
+                                                <Text id="i2123q" text="FOR Site" />
+                                            </HBox>
+                                        </form:fields>
+                                    </form:FormElement>
+                                    <form:FormElement id="1122ssq">
+                                        <form:fields>
+                                            <HBox id="hb12ox3q" height="25px">
+                                                <Text id="i211q" text="Delivery shall be 18 -24 months from the date" />
+                                            </HBox>
+                                        </form:fields>
+                                    </form:FormElement>
+                                    <form:FormElement id="s22a2hfq">
+                                        <form:fields>
+                                            <HBox id="h12box4q" height="25px">
+                                                <Text id="swa222f2q" text=" 10% advance along with PO" />
+                                            </HBox>
+                                        </form:fields>
+                                    </form:FormElement>
+                                    <form:FormElement id="sn22aq">
+                                        <form:fields>
+                                            <HBox id="h12box5q" height="27px">
+                                                <Text id="svwa2222q" text="LD of 0.5% for per weeks delay to a max. 5% of PO value" />
+                                            </HBox>
+                                        </form:fields>
+                                    </form:FormElement>
+                                    <form:FormElement id="s2j2a2q">
+                                        <form:fields>
+                                            <HBox id="h12box6q" height="27px">
+                                                <Text id="swah2222q" text="The Air storage Vessels are guaranteed for mechanical workmanship" />
+                                            </HBox>
+                                        </form:fields>
+                                    </form:FormElement>
+                                    <form:FormElement id="s22a2wq">
+                                        <form:fields>
+                                            <HBox id="hb12ox7q" height="26px">
+                                                <Text id="swa2222wq" text="To be discussed" />
+                                            </HBox>
+                                        </form:fields>
+                                    </form:FormElement>
+                                    <form:FormElement id="s2y2aq">
+                                        <form:fields>
+                                            <HBox id="h12box8q" height="26px">
+                                                <Text id="sfwa222q" text=" A. JAIKUMAR " />
+                                            </HBox>
+                                        </form:fields>
+                                    </form:FormElement>
+                                    <form:FormElement id="usa22aq">
+                                        <form:fields>
+                                            <HBox id="heebox9q" height="26px">
+                                                <Text id="nswa222q" text="TEL : +91-4339-321999" />
+                                            </HBox>
+                                        </form:fields>
+                                    </form:FormElement>
+                                    <form:FormElement id="sj22aq">
+                                        <form:fields>
+                                            <HBox id="hddbox10q" height="24px">
+                                                <Text id="swaff222q" text=" " />
+                                            </HBox>
+                                        </form:fields>
+                                    </form:FormElement>
+                                    <form:FormElement id="shh22aq">
+                                        <form:fields>
+                                            <HBox id="hddbox11q" height="23px">
+                                                <Text id="shhhwa222q" text="Technically Accepted" />
+                                            </HBox>
+                                        </form:fields>
+                                    </form:FormElement>
+                                    <form:FormElement id="s2uiu2aq">
+                                        <form:fields>
+                                            <HBox id="hzxzbox12q" height="20px">
+                                                <Text id="sytwa222q" text="Yes" />
+                                            </HBox>
+                                        </form:fields>
+                                    </form:FormElement>
+                                </form:formElements>
+                            </form:FormContainer>
+
+                        </form:formContainers>
+                    </form:Form>
 
                 </VBox>
                 <!-- end Acoustics India Pvt Ltd.					 -->
