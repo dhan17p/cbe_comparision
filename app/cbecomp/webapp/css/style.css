@@ -6,3 +6,13 @@
 
 }
 
+/* vbox id=sectionform1 */
+#cbecomp\:\:ItemObjectPage--fe\:\:CustomSubSection\:\:Fragment--sectionform1 {
+    border: 1px solid #000000; /* Replace #000000 with the desired color code */
+    padding: 5px;
+}
+
+#cbecomp\:\:ItemObjectPage--fe\:\:CustomSubSection\:\:Fragment--sectionform112{
+    margin-top: 0%;
+}
+
