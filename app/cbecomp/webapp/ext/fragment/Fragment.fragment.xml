@@ -82,8 +82,8 @@
                             <form:FormElement id="tx3e">
                                 <form:fields>
                                     <HBox id="demoxdemoe121" justifyContent="Center">
-                                        <HBox id="dexmodemotest" alignItems="Center">
-                                            <Label id="titxle12" text="Cylindrical Data " design="Bold"/>
+                                        <HBox id="dexmodemotest" height="17px" alignItems="Center">
+                                            <Label id="titxle12" text="Cylindrical Data "  design="Bold"/>
                                         </HBox>
                                     </HBox>
                                 </form:fields>
@@ -1091,8 +1091,8 @@
                                     </form:FormElement>
                                     <form:FormElement id="s22a2w">
                                         <form:fields>
-                                            <HBox id="hb12ox7" height="26px">
-                                                <Text id="swa2222w" text="Corporate Guarantee shall be provided valid until the expiry of Defect Liability Period with further claim period validity of Six (06) months." />
+                                            <HBox id="hb12ox7" width="100%" height="26px">
+                                                <Text id="swa2222w" text="Corporate Guarantee shall be provided valid until the expiry of Defect Liability Period with further claim period validity of Six (06) months." width="70%" wrapping="true"/>
                                             </HBox>
                                         </form:fields>
                                     </form:FormElement>
