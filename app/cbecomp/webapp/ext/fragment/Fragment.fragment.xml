@@ -245,12 +245,12 @@
 
                             <form:FormElement id="13mn14">
                                 <form:fields>
-                                    <HBox id="demox7" justifyContent="SpaceBetween">
+                                    <HBox id="demox7" justifyContent="SpaceBetween" height="20px">
                                         <HBox id="hbox13" alignItems="Start">
                                             <Label id="label7" text="" />
                                         </HBox>
                                         <HBox id="hbox14" alignItems="End">
-                                            <Label design="Bold" id="item7" text="" />
+                                            <Label design="Bold" id="item7" text="RNOD" />
                                         </HBox>
                                     </HBox>
                                 </form:fields>
@@ -260,12 +260,118 @@
 
                             <form:FormElement id="15op16">
                                 <form:fields>
-                                    <HBox id="demox8" justifyContent="SpaceBetween">
+                                    <HBox id="demox8" justifyContent="SpaceBetween" height="25px">
                                         <HBox id="hbox15" alignItems="Start">
                                             <Label id="label8" text="" />
                                         </HBox>
                                         <HBox id="hbox16" alignItems="End">
-                                            <Label design="Bold" id="item8" text="" />
+                                            <Label design="Bold" id="item8" text="Custom Duty and Cess" />
+                                        </HBox>
+                                    </HBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement id="21uv22">
+                                <form:fields>
+                                    <HBox id="demox11" justifyContent="SpaceBetween" height="25px">
+                                        <HBox id="hbox21" alignItems="Start">
+                                            <Label id="label11" text="" />
+                                        </HBox>
+                                        <HBox id="hbox22" alignItems="End">
+                                            <Label design="Bold" id="item11" text="SGST" />
+                                        </HBox>
+                                    </HBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement id="23wx24">
+                                <form:fields>
+                                    <HBox id="demox12" justifyContent="SpaceBetween" height="25px">
+                                        <HBox id="hbox23" alignItems="Start">
+                                            <Label id="label12" text="" />
+                                        </HBox>
+                                        <HBox id="hbox24" alignItems="End">
+                                            <Label design="Bold" id="item12" text="IGST" />
+                                        </HBox>
+                                    </HBox>
+                                </form:fields>
+                            </form:FormElement>
+
+                            <form:FormElement id="25yz26">
+                                <form:fields>
+                                    <HBox id="demox13" justifyContent="SpaceBetween" height="25px">
+                                        <HBox id="hbox25" alignItems="Start">
+                                            <Label id="label13" text="" />
+                                        </HBox>
+                                        <HBox id="hbox26" alignItems="End">
+                                            <Label design="Bold" id="item13" text="UGST" />
+                                        </HBox>
+                                    </HBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement id="updatedElementID1">
+                                <form:fields>
+                                    <HBox id="newHBoxID11" justifyContent="SpaceBetween" height="22px">
+                                        <HBox id="hBox1ID1" alignItems="Start">
+                                            <Label id="newLabelID11" text="" />
+                                        </HBox>
+                                        <HBox id="hBox2ID1" alignItems="End">
+                                            <Label design="Bold" id="newItemID11" text="Shipment charges from EXW to ISRO Mahendragiri " />
+                                        </HBox>
+                                    </HBox>
+                                </form:fields>
+                            </form:FormElement>
+
+                            <form:FormElement id="updatedElementID">
+                                <form:fields>
+                                    <HBox id="newHBoxID1" justifyContent="SpaceBetween" height="22px">
+                                        <HBox id="hBox1ID" alignItems="Start">
+                                            <Label id="newLabelID1" text="" />
+                                        </HBox>
+                                        <HBox id="hBox2ID" alignItems="End">
+                                            <Label design="Bold" id="newItemID1" text="Total Basic Price including packing, marking and forwarding" />
+                                        </HBox>
+                                    </HBox>
+                                </form:fields>
+                            </form:FormElement>
+
+
+                            <form:FormElement id="formElementNewID">
+                                <form:fields>
+                                    <HBox id="hBoxNewID" justifyContent="SpaceBetween" height="25px">
+                                        <HBox id="hBox1NewID" alignItems="Start">
+                                            <Label id="labelNewID" text="" />
+                                        </HBox>
+                                        <HBox id="hBox2NewID" alignItems="End">
+                                            <Label design="Bold" id="itemNewID" text="Total Basic Price including packing, marking and forwarding, Transportation excluding Taxes						
+" />
+                                        </HBox>
+                                    </HBox>
+                                </form:fields>
+                            </form:FormElement>
+
+
+                            <form:FormElement id="updatedFormElementID">
+                                <form:fields>
+                                    <HBox id="modifiedHBoxID" justifyContent="SpaceBetween" height="25px">
+                                        <HBox id="customHBox1ID" alignItems="Start">
+                                            <Label id="customLabelID" text="" />
+                                        </HBox>
+                                        <HBox id="customHBox2ID" alignItems="End">
+                                            <Label design="Bold" id="customItemID" text= "Spares for 2 Years operation" />
+                                        </HBox>
+                                    </HBox>
+                                </form:fields>
+                            </form:FormElement>
+
+
+
+                            <form:FormElement id="newFormElementID">
+                                <form:fields>
+                                    <HBox id="newHBoxID" justifyContent="SpaceBetween" height="25px">
+                                        <HBox id="newHBox1ID" alignItems="Start">
+                                            <Label id="newLabelID" text="" />
+                                        </HBox>
+                                        <HBox id="newHBox2ID" alignItems="End">
+                                            <Label design="Bold" id="newItemID" text="Per Diem rate for Supervision for Erection and commissioning" />
                                         </HBox>
                                     </HBox>
                                 </form:fields>
@@ -439,13 +545,7 @@
                                             <Text id="txt13" text="9000" />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item414">
-                                        <cells>
-                                            <Text id="t1314" text="18%" />
-                                            <Text id="ta314" text=" " />
-                                            <Text id="txt14" text="9000" />
-                                        </cells>
-                                    </ColumnListItem>
+
                                     <ColumnListItem id="item415">
                                         <cells>
                                             <Text id="t1315" text=" " />
@@ -598,13 +698,7 @@
                                             <Text id="texttxt13" text="9000" />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item1414">
-                                        <cells>
-                                            <Text id="text1314" text="18%" />
-                                            <Text id="texta314" text=" " />
-                                            <Text id="texttxt14" text="9000" />
-                                        </cells>
-                                    </ColumnListItem>
+
                                     <ColumnListItem id="item1415">
                                         <cells>
                                             <Text id="text1315" text=" " />
@@ -642,7 +736,7 @@
                                     </ColumnListItem>
                                     <ColumnListItem id="item1420">
                                         <cells>
-                                            <Text id="text1320" text=" " />
+                                            <Text id="text1320" text="7500" />
                                             <Text id="texta320" text=" " />
                                             <Text id="texttxt20" text=" " />
                                         </cells>
@@ -758,13 +852,7 @@
                                             <Text id="texttxt131" text="9000" />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item4141">
-                                        <cells>
-                                            <Text id="text13141" text="18%" />
-                                            <Text id="texta3141" text=" " />
-                                            <Text id="texttxt141" text="9000" />
-                                        </cells>
-                                    </ColumnListItem>
+
                                     <ColumnListItem id="item4151">
                                         <cells>
                                             <Text id="text13151" text=" " />
@@ -811,7 +899,9 @@
 
                             </Table>
                         </VBox>
+
                     </HBox>
+                    <Text id='txt1as1' text="Receipt of order, Approved MDS – 0 date"></Text>
                 </VBox>
 
                 <Table id="myTable1" items="{/Item}" growing="true" growingThreshold="20" fixedLayout="false">
