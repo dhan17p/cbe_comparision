@@ -193,7 +193,7 @@
                             <Text id="validisty" text=""></Text>
                             <Text id="valzidity" text=""></Text>
                             <Label design="Bold" id="offers" text="Original Offer" />
-                                                        <Table id="myTable12121" growing="true" growingThreshold="20" width="100%" fixedLayout="false">
+                            <Table id="myTable12121" growing="true" growingThreshold="20" width="100%" fixedLayout="false">
                                 <!--  Define columns and bindings for the table  -->
                                 <columns>
                                     <Column id="col221112">
@@ -354,7 +354,7 @@
                             <Text id="validi2sty" text=""></Text>
                             <Text id="valzi2dity" text=""></Text>
                             <Label design="Bold" id="tiitle221" text="Reverse Auction Offer" />
-                                                        <Table id="myTable121" growing="true" growingThreshold="20" width="100%" fixedLayout="false">
+                            <Table id="myTable121" growing="true" growingThreshold="20" width="100%" fixedLayout="false">
                                 <!--  Define columns and bindings for the table  -->
                                 <columns>
                                     <Column id="col2211">
@@ -515,7 +515,7 @@
                             <Text id="valiSdi2sty" text=""></Text>
                             <Text id="valzZi2dity" text=""></Text>
                             <Label design="Bold" id="tiitle51" text="Final Negotiated Price after Reverse Auction" />
-                                                        <Table id="myTable" growing="true" growingThreshold="20" width="100%" fixedLayout="false">
+                            <Table id="myTable" growing="true" growingThreshold="20" width="100%" fixedLayout="false">
                                 <!--  Define columns and bindings for the table  -->
                                 <columns>
                                     <Column id="col221">
