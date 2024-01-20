@@ -539,13 +539,6 @@
         </VBox>
         <ScrollContainer width="90vw" height="100vh" horizontal="true" vertical="false" id="scrollContainer">
             <HBox id="secondSection" width="100vw" wrap="NoWrap">
-                <!-- Add your controls for the second section here -->
-
-                <!-- Add more controls as needed -->
-                <!-- <test:Table id = "testtab">
-                
-                </test:Table>
-                <macros:Table id="tab22"></macros:Table> -->
                 <VBox id="sectionform1">
                     <form:Form id="sectionform112" editable="false">
                         <form:layout>
@@ -558,7 +551,7 @@
                                         <form:fields>
                                             <HBox id="hb1s1">
 
-                                                <Text id="itemdname" text="Artson Enginerring Ltd" />
+                                                <Text id="itemdname" text="Artson Enginerring Ltd"  />
                                             </HBox>
                                         </form:fields>
                                     </form:FormElement>
@@ -1048,7 +1041,7 @@
                         </VBox>
 
                     </HBox>
-                    <form:Form id="sectionform1122" editable="false">
+                    <form:Form id="sectionform112222" editable="false">
                         <form:layout>
                             <form:ResponsiveGridLayout id="r2esp112" labelSpanXL="4" labelSpanL="3" labelSpanM="4" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="0" emptySpanL="4" emptySpanM="0" emptySpanS="0" columnsXL="2" columnsL="1" columnsM="1" singleContainerFullSize="false" />
                         </form:layout>
@@ -1143,7 +1136,7 @@
                                     <form:FormElement id="uius22a">
                                         <form:fields>
 
-                                            <Text id="s88wa222" text="Receipt of order, Approved MDS – 0 date" />
+                                            <Text id="s88wa222" text="Receipt of order, Approved MDS – 0 date check" />
 
                                         </form:fields>
                                     </form:FormElement>
@@ -1152,7 +1145,460 @@
                         </form:formContainers>
                     </form:Form>
 
-                    <Text id='txt1as1' text="Receipt of order, Approved MDS – 0 date"></Text>
+                    <Text id='txt1as1' text="Receipt of order, Approved MDS – 1 date"></Text>
+                </VBox>
+               <!-- for Walchandnagar Industries Limited					 -->
+               <VBox id="sectionform122">
+    <form:Form id="sectionform113" editable="false">
+        <form:layout>
+            <form:ResponsiveGridLayout id="resp12" labelSpanXL="4" labelSpanL="3" labelSpanM="4" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="0" emptySpanL="4" emptySpanM="0" emptySpanS="0" columnsXL="2" columnsL="1" columnsM="1" singleContainerFullSize="false" />
+        </form:layout>
+        <form:formContainers>
+            <form:FormContainer id="fg2" ariaLabelledBy="Title">
+                <form:formElements>
+                    <form:FormElement id="1s3">
+                        <form:fields>
+                            <HBox id="hb1s2">
+                                <Text id="itemdname2" text="Walchandnagar Industries Limited" />
+                            </HBox>
+                        </form:fields>
+                    </form:FormElement>
+                    <form:FormElement id="1s23">
+                        <form:fields>
+                            <HBox id="hb1s14">
+                                <Text id="itemdwname2" text="Pune" />
+                            </HBox>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+        </form:formContainers>
+    </form:Form>
+
+
+    <!-- ... (your existing form structure) ... -->
+
+    <!-- HBox for Tables -->
+    <HBox id="tablesHBox1">
+        <!-- Original Offer Table -->
+
+        <VBox id= "v76776">
+
+            <Text id="qnt6" text="WIL/AERO/TPL/19"></Text>
+            <Text id="date6" text="25-01-2019"></Text>
+            <Text id="validity6" text="120 days"></Text>
+            <Text id="CylindricalData6" text=""></Text>
+
+
+            <Label design="Bold" id="offers6" text="Original and Final Offer " />
+            <Table id="myTable121216" growing="true" growingThreshold="20" width="100%" fixedLayout="false">
+                <!--  Define columns and bindings for the table  -->
+                <columns>
+                    <Column id="col2211126">
+                        <Text id="t3311216" text="unit rate(INR)" wrapping="false"/>
+                    </Column>
+                    <Column id="221c216">
+                        <Text id="t3226" text="unit rate(KG)" wrapping="false" />
+                    </Column>
+                    <Column id="22226">
+                        <Text id="t3321c6" text="Total Amount (INR)" wrapping="false"/>
+                    </Column>
+                    <!--  Add more columns if needed  -->
+                </columns>
+                <items>
+                    <ColumnListItem id="item1112326">
+                        <cells>
+                            <Text id="t23126" text="39900000" />
+                            <Text id="tab2126" text="181" />
+                            <Text id="texr336" text="239400000" />
+                            <!--  Bind other properties accordingly  -->
+                        </cells>
+
+                    </ColumnListItem>
+                    <ColumnListItem id="item446">
+                        <cells>
+                            <Text id="t2336" text=" " />
+                            <Text id="ta336" text=" " />
+                            <Text id="txt336" text=" " />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item456">
+                        <cells>
+                            <Text id="t2346" text=" " />
+                            <Text id="ta346" text=" " />
+                            <Text id="txt346" text=" " />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item4556">
+                        <cells>
+                            <Text id="t2356" text=" " />
+                            <Text id="ta356" text=" " />
+                            <Text id="txt56" text="239400000" />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item466">
+                        <cells>
+                            <Text id="t2366" text="Included" />
+                            <Text id="ta366" text=" " />
+                            <Text id="txt66" text=" " />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item476">
+                        <cells>
+                            <Text id="t2376" text="Included" />
+                            <Text id="ta376" text=" " />
+                            <Text id="txt76" text="3840000"/>
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item486">
+                        <cells>
+                            <Text id="t2386" text="Included" />
+                            <Text id="ta386" text=" " />
+                            <Text id="txt86" text=" " />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item496">
+                        <cells>
+                            <Text id="t2396" text=" " />
+                            <Text id="ta396" text=" " />
+                            <Text id="txt96" text="243240000" />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item4106">
+                        <cells>
+                            <Text id="t23106" text=" " />
+                            <Text id="ta3106" text=" " />
+                            <Text id="txt106" text=" " />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item4116">
+                        <cells>
+                            <Text id="t23116" text=" " />
+                            <Text id="ta3116" text=" " />
+                            <Text id="txt116" text=" " />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item4126">
+                        <cells>
+                            <Text id="t13126" text=" " />
+                            <Text id="ta3126" text=" " />
+                            <Text id="txt126" text=" " />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item4136">
+                        <cells>
+                            <Text id="t13136" text="18%" />
+                            <Text id="ta3136" text=" " />
+                            <Text id="txt136" text=" 43783200" />
+                        </cells>
+                    </ColumnListItem>
+
+                    <ColumnListItem id="item4156">
+                        <cells>
+                            <Text id="t13156" text=" " />
+                            <Text id="ta3156" text=" " />
+                            <Text id="txt156" text=" " />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item4166">
+                        <cells>
+                            <Text id="t13166" text="By TPL" />
+                            <Text id="ta3166" text=" " />
+                            <Text id="txt166" text=" " />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item4176">
+                        <cells>
+                            <Text id="t13176" text=" " />
+                            <Text id="ta3176" text=" " />
+                            <Text id="txt176" text=" 287023200 " />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item4186">
+                        <cells>
+                            <Text id="t13186" text=" " />
+                            <Text id="ta3186" text=" " />
+                            <Text id="txt186" text=" 243240000" />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item4196">
+                        <cells>
+                            <Text id="t13196" text=" " />
+                            <Text id="ta3196" text=" " />
+                            <Text id="txt196" text=" " />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item4206">
+                        <cells>
+                            <Text id="t13206" text=" " />
+                            <Text id="ta3206" text=" " />
+                            <Text id="txt206" text=" " />
+                        </cells>
+                    </ColumnListItem>
+                </items>
+            </Table>
+        </VBox>
+        <VBox id= "v33566">
+            <Text id="qnt26" text="Reverse Auction"></Text>
+            <Text id="date36" text="15-Apr-19"></Text>
+            <Text id="validi2ty6" text="30 days"></Text>
+            <Text id="Cylind2ricalData6" text=""></Text>
+
+            <Label design="Bold" id="tiitle2216" text="Final negotiated Offer" />
+            <Table id="myTable1216" growing="true" growingThreshold="20" width="100%" fixedLayout="false">
+                <!--  Define columns and bindings for the table  -->
+                <columns>
+                    <Column id="col22116">
+                        <Text id="t33116" text="unit rate(INR)" wrapping="false" />
+                    </Column>
+                    <Column id="221c6">
+                        <Text id="t33226" text="unit rate(KG)" wrapping="false" />
+                    </Column>
+                    <Column id="221d6">
+                        <Text id="t33236" text="Total Amount (INR)" wrapping="false" />
+                    </Column>
+                    <!--  Add more columns if needed  -->
+                </columns>
+                <items>
+                    <ColumnListItem id="item112326">
+                        <cells>
+                            <Text id="text23126" text=" 3,90,00,000 " />
+                            <Text id="text2126" text="177" />
+                            <Text id="text337" text="23,40,00,000" />
+                            <!--  Bind other properties accordingly  -->
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item4727">
+                        <cells>
+                            <Text id="text2337" text=" " />
+                            <Text id="texta33a" text=" " />
+                            <Text id="texttxt33a" text=" " />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item145a">
+                        <cells>
+                            <Text id="text234a" text=" " />
+                            <Text id="texta34a" text=" " />
+                            <Text id="texttxt34a" text=" " />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item155a">
+                        <cells>
+                            <Text id="text235a" text=" " />
+                            <Text id="texta35a" text=" " />
+                            <Text id="texttxt5a" text=" 23,40,00,000 " />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item1416a">
+                        <cells>
+                            <Text id="text236a" text="Included" />
+                            <Text id="texta36a" text=" " />
+                            <Text id="texttxt6a" text=" " />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item147a">
+                        <cells>
+                            <Text id="text237a" text="Included" />
+                            <Text id="texta37a" text=" " />
+                            <Text id="texttxt7a" text=" " />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item148a">
+                        <cells>
+                            <Text id="text238a" text="Included" />
+                            <Text id="texta38a" text=" " />
+                            <Text id="texttxt8a" text=" " />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item149a">
+                        <cells>
+                            <Text id="text239a" text=" " />
+                            <Text id="texta39a" text=" " />
+                            <Text id="texttxt9a" text=" 23,40,00,000 " />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item1410a">
+                        <cells>
+                            <Text id="text2310a" text=" " />
+                            <Text id="texta310a" text=" " />
+                            <Text id="texttxt10a" text=" " />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item1411a">
+                        <cells>
+                            <Text id="text2311a" text=" " />
+                            <Text id="texta311a" text=" " />
+                            <Text id="texttxt11a" text=" " />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item1412a">
+                        <cells>
+                            <Text id="text1312a" text=" " />
+                            <Text id="texta312a" text=" " />
+                            <Text id="texttxt12a" text=" " />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item1413a">
+                        <cells>
+                            <Text id="text1313a" text="18%" />
+                            <Text id="texta313a" text=" " />
+                            <Text id="texttxt13a" text=" 4,21,20,000 " />
+                        </cells>
+                    </ColumnListItem>
+
+                    <ColumnListItem id="item1415a">
+                        <cells>
+                            <Text id="text1315a" text=" " />
+                            <Text id="texta315a" text=" " />
+                            <Text id="texttxt15a" text=" " />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item11416a">
+                        <cells>
+                            <Text id="text1316a" text=" " />
+                            <Text id="texta316a" text=" " />
+                            <Text id="texttxt16a" text=" " />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item1417a">
+                        <cells>
+                            <Text id="text1317a" text=" " />
+                            <Text id="texta317a" text=" " />
+                            <Text id="texttxt1a7" text=" 27,61,20,000 " />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item1418a">
+                        <cells>
+                            <Text id="text1318a" text=" " />
+                            <Text id="texta318a" text=" " />
+                            <Text id="texttxt18a" text=" 23,40,00,000 " />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item1419a">
+                        <cells>
+                            <Text id="text1319a" text=" " />
+                            <Text id="texta319a" text=" " />
+                            <Text id="texttxt19a" text=" " />
+                        </cells>
+                    </ColumnListItem>
+                    <ColumnListItem id="item1420a">
+                        <cells>
+                            <Text id="text1320a" text=" 18,000" />
+                            <Text id="texta320a" text=" " />
+                            <Text id="texttxt20a" text=" " />
+                        </cells>
+                    </ColumnListItem>
+                </items>
+
+            </Table>
+        </VBox>
+
+    </HBox>
+    <form:Form id="sectionform1122a" editable="false">
+        <form:layout>
+            <form:ResponsiveGridLayout id="r2esp112a" labelSpanXL="4" labelSpanL="3" labelSpanM="4" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="0" emptySpanL="4" emptySpanM="0" emptySpanS="0" columnsXL="2" columnsL="1" columnsM="1" singleContainerFullSize="false" />
+        </form:layout>
+        <form:formContainers>
+            <form:FormContainer id="fg12a" ariaLabelledBy="Title">
+                <form:formElements>
+                    <form:FormElement id="112s22a">
+                        <form:fields>
+
+                            <Text id="i2temdname2a" text="Ex-Works Pune" />
+
+                        </form:fields>
+                    </form:FormElement>
+                    <form:FormElement id="112s2221a">
+                        <form:fields>
+
+                            <Text id="i2123a" text="Ex-Works Pune" />
+
+                        </form:fields>
+                    </form:FormElement>
+                    <form:FormElement id="1122ssa">
+                        <form:fields>
+
+                            <Text id="i211a" text="60 Weeks" />
+
+                        </form:fields>
+                    </form:FormElement>
+                    <form:FormElement id="s22a2hfa">
+                        <form:fields>
+
+                            <Text id="swa222f2a" text="  10% of Total Contract Value shall be payable as advance against submission of following documents:" />
+
+                        </form:fields>
+                    </form:FormElement>
+                    <form:FormElement id="sn22aa">
+                        <form:fields>
+
+                            <Text id="svwa2222a" text="LD of 0.5% for per weeks delay to a max. 5% of PO value" />
+
+                        </form:fields>
+                    </form:FormElement>
+                    <form:FormElement id="s2j2a2a">
+                        <form:fields>
+
+                            <Text id="swah2222a" text="Warranty for the performance of all the Ordered items/packages under the Contract" />
+
+                        </form:fields>
+                    </form:FormElement>
+                    <form:FormElement id="s22a2wa">
+                        <form:fields>
+
+                            <Text id="swa2222wa" text="Corporate Guarantee shall be provided valid until the expiry of Defect Liability Period with further claim period validity of Six (06) months." />
+
+                        </form:fields>
+                    </form:FormElement>
+                    <form:FormElement id="s2y2aa">
+                        <form:fields>
+
+                            <Text id="sfwa222a" text="Ranjan Gaur" />
+
+                        </form:fields>
+                    </form:FormElement>
+
+                    <form:FormElement id="usa22aa">
+                        <form:fields>
+
+                            <Text id="nswa222a" text="Tel : (O) +91-20-30252988 (M) +91-9158169086" />
+
+                        </form:fields>
+                    </form:FormElement>
+                    <form:FormElement id="sj22aaa">
+                        <form:fields>
+
+                            <Text id="swaff222a" text=" " />
+
+                        </form:fields>
+                    </form:FormElement>
+                    <form:FormElement id="shh22aa">
+                        <form:fields>
+
+                            <Text id="shhhwa2a22aaa" text="Technically Accepted" />
+
+                        </form:fields>
+                    </form:FormElement>
+                    <form:FormElement id="s2uiua2aa">
+                        <form:fields>
+
+                            <Text id="sytwa222aaa" text="Yes" />
+
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+        </form:formContainers>
+    </form:Form>
+</VBox>
+
+
+                <!-- end of for Walchandnagar Industries Limited	 -->
+
+
+                <VBox id= "v43">
+                <Text id="txt" text="fff"></Text>
+                <Text id="txt1" text="fff"></Text>
                 </VBox>
 
                 <Table id="myTable1" items="{/Item}" growing="true" growingThreshold="20" fixedLayout="false">
