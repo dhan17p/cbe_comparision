@@ -1,8 +1,8 @@
 namespace CBE;
 
 entity Item {
-    key itemno              : Integer @Common.Label: 'Item No.';
-        itemname            : String  @Common.Label: 'Items Desc';
+        itemno              : Integer @Common.Label: 'Item No.';
+    key itemname            : String  @Common.Label: 'Items Desc';
         indent              : String  @Common.Label: 'Indent';
         client              : String  @Common.Label: 'Client';
         project             : String  @Common.Label: 'Project';

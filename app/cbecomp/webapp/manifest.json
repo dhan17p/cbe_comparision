@@ -144,8 +144,8 @@
                                     "sections": {
                                         "Fragment": {
                                             "template": "cbecomp.ext.fragment.Fragment",
-                                            "title": "fragment",
-                                            "type": "XMLFragment"
+                                            "type": "XMLFragment",
+                                            "title": "Commercial Bid Evaluation - Air Storage Tanks - 6 Nos"
                                         }
                                     }
                                 }

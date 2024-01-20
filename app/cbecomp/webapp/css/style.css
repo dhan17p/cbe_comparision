@@ -7,7 +7,11 @@
 }
 
 /* vbox id=sectionform1 */
-#cbecomp\:\:ItemObjectPage--fe\:\:CustomSubSection\:\:Fragment--sectionform1 {
+#cbecomp\:\:ItemObjectPage--fe\:\:CustomSubSection\:\:Fragment--sectionform1,
+#cbecomp\:\:ItemObjectPage--fe\:\:CustomSubSection\:\:Fragment--sectionform122,/* vbox 2 */
+#cbecomp\:\:ItemObjectPage--fe\:\:CustomSubSection\:\:Fragment--sectionforss,/* vbox 3 */
+#cbecomp\:\:ItemObjectPage--fe\:\:CustomSubSection\:\:Fragment--sectionform122w ,/* vbox 4 */
+#cbecomp\:\:ItemObjectPage--fe\:\:CustomSubSection\:\:Fragment--sectionform122we {/* vbox 5 */
     border: 1px solid #000000; /* Replace #000000 with the desired color code */
     padding: 5px;
 }
