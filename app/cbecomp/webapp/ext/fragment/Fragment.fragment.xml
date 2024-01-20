@@ -193,14 +193,17 @@
                             <Text id="validisty" text=""></Text>
                             <Text id="valzidity" text=""></Text>
                             <Label design="Bold" id="offers" text="Original Offer" />
-                            <Table id="myTable12121" items="{/Item}" growing="true" growingThreshold="20" width="100%" fixedLayout="false">
+                                                        <Table id="myTable12121" growing="true" growingThreshold="20" width="100%" fixedLayout="false">
                                 <!--  Define columns and bindings for the table  -->
                                 <columns>
                                     <Column id="col221112">
                                         <Text id="t331121" text="unit rate(INR)" />
                                     </Column>
                                     <Column id="221c21">
-                                        <Text id="t3321c" text="unit rate(KG)" />
+                                        <Text id="t322" text="unit rate(KG)" />
+                                    </Column>
+                                    <Column id="2222">
+                                        <Text id="t3321c" text="Total Amount (INR)" />
                                     </Column>
                                     <!--  Add more columns if needed  -->
                                 </columns>
@@ -208,10 +211,137 @@
                                     <ColumnListItem id="item111232">
                                         <cells>
                                             <Text id="t2312" text="39000" />
-                                            <Text id="tab212" text="32" />
+                                            <Text id="tab212" text="178" />
+                                            <Text id="texr33" text=" 234570000 " />
                                             <!--  Bind other properties accordingly  -->
                                         </cells>
 
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item44">
+                                        <cells>
+                                            <Text id="t233" text=" " />
+                                            <Text id="ta33" text=" " />
+                                            <Text id="txt33" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item45">
+                                        <cells>
+                                            <Text id="t234" text=" " />
+                                            <Text id="ta34" text=" " />
+                                            <Text id="txt34" text="50000" />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item455">
+                                        <cells>
+                                            <Text id="t235" text=" " />
+                                            <Text id="ta35" text=" " />
+                                            <Text id="txt5" text="50000" />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item46">
+                                        <cells>
+                                            <Text id="t236" text="Included" />
+                                            <Text id="ta36" text=" " />
+                                            <Text id="txt6" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item47">
+                                        <cells>
+                                            <Text id="t237" text="Included" />
+                                            <Text id="ta37" text=" " />
+                                            <Text id="txt7" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item48">
+                                        <cells>
+                                            <Text id="t238" text="Included" />
+                                            <Text id="ta38" text=" " />
+                                            <Text id="txt8" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item49">
+                                        <cells>
+                                            <Text id="t239" text=" " />
+                                            <Text id="ta39" text=" " />
+                                            <Text id="txt9" text="50000" />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item410">
+                                        <cells>
+                                            <Text id="t2310" text=" " />
+                                            <Text id="ta310" text=" " />
+                                            <Text id="txt10" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item411">
+                                        <cells>
+                                            <Text id="t2311" text="NA" />
+                                            <Text id="ta311" text=" " />
+                                            <Text id="txt11" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item412">
+                                        <cells>
+                                            <Text id="t1312" text=" " />
+                                            <Text id="ta312" text=" " />
+                                            <Text id="txt12" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item413">
+                                        <cells>
+                                            <Text id="t1313" text="18%" />
+                                            <Text id="ta313" text=" " />
+                                            <Text id="txt13" text="9000" />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item414">
+                                        <cells>
+                                            <Text id="t1314" text="18%" />
+                                            <Text id="ta314" text=" " />
+                                            <Text id="txt14" text="9000" />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item415">
+                                        <cells>
+                                            <Text id="t1315" text=" " />
+                                            <Text id="ta315" text=" " />
+                                            <Text id="txt15" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item416">
+                                        <cells>
+                                            <Text id="t1316" text="By TPL" />
+                                            <Text id="ta316" text=" " />
+                                            <Text id="txt16" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item417">
+                                        <cells>
+                                            <Text id="t1317" text=" " />
+                                            <Text id="ta317" text=" " />
+                                            <Text id="txt17" text="59000" />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item418">
+                                        <cells>
+                                            <Text id="t1318" text=" " />
+                                            <Text id="ta318" text=" " />
+                                            <Text id="txt18" text="50000" />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item419">
+                                        <cells>
+                                            <Text id="t1319" text=" " />
+                                            <Text id="ta319" text=" " />
+                                            <Text id="txt19" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item420">
+                                        <cells>
+                                            <Text id="t1320" text=" " />
+                                            <Text id="ta320" text=" " />
+                                            <Text id="txt20" text=" " />
+                                        </cells>
                                     </ColumnListItem>
                                 </items>
                             </Table>
@@ -224,26 +354,157 @@
                             <Text id="validi2sty" text=""></Text>
                             <Text id="valzi2dity" text=""></Text>
                             <Label design="Bold" id="tiitle221" text="Reverse Auction Offer" />
-                            <Table id="myTable121" items="{/Item}" growing="true" growingThreshold="20" width="100%" fixedLayout="false">
+                                                        <Table id="myTable121" growing="true" growingThreshold="20" width="100%" fixedLayout="false">
                                 <!--  Define columns and bindings for the table  -->
                                 <columns>
                                     <Column id="col2211">
-                                        <Text id="t3311" text="Column 1" />
+                                        <Text id="t3311" text="unit rate(INR)" />
                                     </Column>
                                     <Column id="221c">
-                                        <Text id="t3321" text="Column 2" />
+                                        <Text id="t3322" text="unit rate(KG)" />
+                                    </Column>
+                                    <Column id="221d">
+                                        <Text id="t3323" text="Total Amount (INR)" />
                                     </Column>
                                     <!--  Add more columns if needed  -->
                                 </columns>
                                 <items>
-                                    <ColumnListItem id="item1112">
+                                    <ColumnListItem id="item11232">
                                         <cells>
-                                            <Text id="t231" text="{itemno}" />
-                                            <Text id="tab21" text="{itemname}" />
+                                            <Text id="text2312" text="39000" />
+                                            <Text id="text212" text="178" />
+                                            <Text id="text33" text=" 234570000 " />
                                             <!--  Bind other properties accordingly  -->
                                         </cells>
                                     </ColumnListItem>
+                                    <ColumnListItem id="item4">
+                                        <cells>
+                                            <Text id="text233" text=" " />
+                                            <Text id="texta33" text=" " />
+                                            <Text id="texttxt33" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item145">
+                                        <cells>
+                                            <Text id="text234" text=" " />
+                                            <Text id="texta34" text=" " />
+                                            <Text id="texttxt34" text="50000" />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item155">
+                                        <cells>
+                                            <Text id="text235" text=" " />
+                                            <Text id="texta35" text=" " />
+                                            <Text id="texttxt5" text="50000" />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item1416">
+                                        <cells>
+                                            <Text id="text236" text="Included" />
+                                            <Text id="texta36" text=" " />
+                                            <Text id="texttxt6" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item147">
+                                        <cells>
+                                            <Text id="text237" text="Included" />
+                                            <Text id="texta37" text=" " />
+                                            <Text id="texttxt7" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item148">
+                                        <cells>
+                                            <Text id="text238" text="Included" />
+                                            <Text id="texta38" text=" " />
+                                            <Text id="texttxt8" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item149">
+                                        <cells>
+                                            <Text id="text239" text=" " />
+                                            <Text id="texta39" text=" " />
+                                            <Text id="texttxt9" text="50000" />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item1410">
+                                        <cells>
+                                            <Text id="text2310" text=" " />
+                                            <Text id="texta310" text=" " />
+                                            <Text id="texttxt10" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item1411">
+                                        <cells>
+                                            <Text id="text2311" text="NA" />
+                                            <Text id="texta311" text=" " />
+                                            <Text id="texttxt11" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item1412">
+                                        <cells>
+                                            <Text id="text1312" text=" " />
+                                            <Text id="texta312" text=" " />
+                                            <Text id="texttxt12" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item1413">
+                                        <cells>
+                                            <Text id="text1313" text="18%" />
+                                            <Text id="texta313" text=" " />
+                                            <Text id="texttxt13" text="9000" />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item1414">
+                                        <cells>
+                                            <Text id="text1314" text="18%" />
+                                            <Text id="texta314" text=" " />
+                                            <Text id="texttxt14" text="9000" />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item1415">
+                                        <cells>
+                                            <Text id="text1315" text=" " />
+                                            <Text id="texta315" text=" " />
+                                            <Text id="texttxt15" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item11416">
+                                        <cells>
+                                            <Text id="text1316" text="By TPL" />
+                                            <Text id="texta316" text=" " />
+                                            <Text id="texttxt16" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item1417">
+                                        <cells>
+                                            <Text id="text1317" text=" " />
+                                            <Text id="texta317" text=" " />
+                                            <Text id="texttxt17" text="59000" />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item1418">
+                                        <cells>
+                                            <Text id="text1318" text=" " />
+                                            <Text id="texta318" text=" " />
+                                            <Text id="texttxt18" text="50000" />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item1419">
+                                        <cells>
+                                            <Text id="text1319" text=" " />
+                                            <Text id="texta319" text=" " />
+                                            <Text id="texttxt19" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item1420">
+                                        <cells>
+                                            <Text id="text1320" text=" " />
+                                            <Text id="texta320" text=" " />
+                                            <Text id="texttxt20" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
                                 </items>
+
                             </Table>
                         </VBox>
                         <VBox id= "v3356333">
@@ -254,26 +515,157 @@
                             <Text id="valiSdi2sty" text=""></Text>
                             <Text id="valzZi2dity" text=""></Text>
                             <Label design="Bold" id="tiitle51" text="Final Negotiated Price after Reverse Auction" />
-                            <Table id="myTable" items="{/Item}" growing="true" growingThreshold="20" width="100%" fixedLayout="false">
+                                                        <Table id="myTable" growing="true" growingThreshold="20" width="100%" fixedLayout="false">
                                 <!--  Define columns and bindings for the table  -->
                                 <columns>
                                     <Column id="col221">
-                                        <Text id="t331" text="Column 1" />
+                                        <Text id="t331" text="unit rate(INR)" />
+                                    </Column>
+                                    <Column id="col23">
+                                        <Text id="t333" text="unit rate(KG)" />
                                     </Column>
                                     <Column id="col22">
-                                        <Text id="t332" text="Column 2" />
+                                        <Text id="t332" text="Total Amount (INR)" />
                                     </Column>
                                     <!--  Add more columns if needed  -->
                                 </columns>
                                 <items>
-                                    <ColumnListItem id="item">
+                                    <ColumnListItem id="item1112932">
                                         <cells>
-                                            <Text id="t23" text="{itemno}" />
-                                            <Text id="tab2" text="{itemname}" />
+                                            <Text id="unitRateINR" text="39000" />
+                                            <Text id="unitRateKG" text="178" />
+                                            <Text id="totalAmount" text=" 234570000 " />
                                             <!--  Bind other properties accordingly  -->
                                         </cells>
                                     </ColumnListItem>
+                                    <ColumnListItem id="item441">
+                                        <cells>
+                                            <Text id="text2331" text=" " />
+                                            <Text id="texta331" text=" " />
+                                            <Text id="texttxt31" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item451">
+                                        <cells>
+                                            <Text id="text2341" text=" " />
+                                            <Text id="texta341" text=" " />
+                                            <Text id="texttxt341" text="50000" />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item4551">
+                                        <cells>
+                                            <Text id="text2351" text=" " />
+                                            <Text id="texta351" text=" " />
+                                            <Text id="texttxt51" text="50000" />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item461">
+                                        <cells>
+                                            <Text id="text2361" text="Included" />
+                                            <Text id="texta361" text=" " />
+                                            <Text id="texttxt61" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item471">
+                                        <cells>
+                                            <Text id="text2371" text="Included" />
+                                            <Text id="texta371" text=" " />
+                                            <Text id="texttxt71" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item481">
+                                        <cells>
+                                            <Text id="text2381" text="Included" />
+                                            <Text id="texta381" text=" " />
+                                            <Text id="texttxt81" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item491">
+                                        <cells>
+                                            <Text id="text2391" text=" " />
+                                            <Text id="texta391" text=" " />
+                                            <Text id="texttxt119" text="50000" />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item4110">
+                                        <cells>
+                                            <Text id="text23101" text=" " />
+                                            <Text id="texta3101" text=" " />
+                                            <Text id="texttxt110" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item4111">
+                                        <cells>
+                                            <Text id="text23111" text="NA" />
+                                            <Text id="texta3111" text=" " />
+                                            <Text id="texttxt111" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item4121">
+                                        <cells>
+                                            <Text id="text13121" text=" " />
+                                            <Text id="texta3121" text=" " />
+                                            <Text id="texttxt121" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item4131">
+                                        <cells>
+                                            <Text id="text13131" text="18%" />
+                                            <Text id="texta3131" text=" " />
+                                            <Text id="texttxt131" text="9000" />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item4141">
+                                        <cells>
+                                            <Text id="text13141" text="18%" />
+                                            <Text id="texta3141" text=" " />
+                                            <Text id="texttxt141" text="9000" />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item4151">
+                                        <cells>
+                                            <Text id="text13151" text=" " />
+                                            <Text id="texta3151" text=" " />
+                                            <Text id="texttxt151" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item4161">
+                                        <cells>
+                                            <Text id="text13161" text="By TPL" />
+                                            <Text id="texta3161" text=" " />
+                                            <Text id="texttxt161" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item4171">
+                                        <cells>
+                                            <Text id="text13171" text=" " />
+                                            <Text id="texta3171" text=" " />
+                                            <Text id="texttxt171" text="59000" />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item4181">
+                                        <cells>
+                                            <Text id="text13181" text=" " />
+                                            <Text id="texta3181" text=" " />
+                                            <Text id="texttxt181" text="50000" />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item4191">
+                                        <cells>
+                                            <Text id="text13191" text=" " />
+                                            <Text id="texta3191" text=" " />
+                                            <Text id="texttxt191" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item4201">
+                                        <cells>
+                                            <Text id="text13201" text=" " />
+                                            <Text id="texta3201" text=" " />
+                                            <Text id="texttxt201" text=" " />
+                                        </cells>
+                                    </ColumnListItem>
                                 </items>
+
                             </Table>
                         </VBox>
                     </HBox>
