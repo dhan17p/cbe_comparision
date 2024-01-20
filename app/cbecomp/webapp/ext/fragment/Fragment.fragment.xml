@@ -117,13 +117,15 @@
                             <Text id="t7" text="Design Pressure Bar" wrapping="false" />
                         </Column>
                         <Column id="col8">
-                            <Text id="t8" text="Weight  (kgs)" wrapping="false" />
+                            <Text id="t8" text="Weight (kgs)" wrapping="false" />
+                        </Column>
+                        <Column id="col9">
+                            <Text id="t9" text=" Qty No" wrapping="false" />
                         </Column>
                     </columns>
                     <items>
                         <ColumnListItem id="item1">
                             <cells >
-
                                 <Text id="tc2" text="{itemname}" wrapping="false" />
                                 <Text id="tc3" text="{capacity_each}" wrapping="false" />
                                 <Text id="tc4" text="{dia_mm}" wrapping="false"/>
@@ -131,6 +133,7 @@
                                 <Text id="tc6" text="{moc}" wrapping="false"/>
                                 <Text id="tc7" text="{design_pressure_bar}" wrapping="false" />
                                 <Text id="tc8" text="{weights}" wrapping="false" />
+                                <Text id="tc9" text="{quantity}" wrapping="false" />
 
                                 <!--  Bind other properties accordingly  -->
                             </cells>
@@ -372,6 +375,150 @@
                                         </HBox>
                                         <HBox id="newHBox2ID" alignItems="End">
                                             <Label design="Bold" id="newItemID" text="Per Diem rate for Supervision for Erection and commissioning" />
+                                        </HBox>
+                                    </HBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement id="formElement2ID">
+                                <form:fields>
+                                    <HBox id="hBox32ID" justifyContent="SpaceBetween" height="25px">
+                                        <HBox id="hBox3ID" alignItems="Start">
+                                            <Label id="label2ID" text="" />
+                                        </HBox>
+                                        <HBox id="hBox4ID" alignItems="End">
+                                            <Label design="Bold" id="item2ID" text=" PriceBasis" />
+                                        </HBox>
+                                    </HBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement id="formElement3ID">
+                                <form:fields>
+                                    <HBox id="hBox5ID" justifyContent="SpaceBetween" height="20px">
+                                        <HBox id="hBox6ID" alignItems="Start">
+                                            <Label id="label3ID" text="" />
+                                        </HBox>
+                                        <HBox id="hBox7ID" alignItems="End">
+                                            <Label design="Bold" id="item3ID" text="Point of Delivery" />
+                                        </HBox>
+                                    </HBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement id="formElement4ID">
+                                <form:fields>
+                                    <HBox id="hBox8ID" justifyContent="SpaceBetween" height="25px">
+                                        <HBox id="hBox9ID" alignItems="Start">
+                                            <Label id="label4ID" text="" />
+                                        </HBox>
+                                        <HBox id="hBox10ID" alignItems="End">
+                                            <Label design="Bold" id="item4ID" text="Delivery Period" />
+                                        </HBox>
+                                    </HBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement id="formElement5ID">
+                                <form:fields>
+                                    <HBox id="hBox11ID" justifyContent="SpaceBetween" height="25px">
+                                        <HBox id="hBox12ID" alignItems="Start">
+                                            <Label id="label5ID" text="" />
+                                        </HBox>
+                                        <HBox id="hBox13ID" alignItems="End">
+                                            <Label design="Bold" id="item5ID" text="Payment Terms" />
+                                        </HBox>
+                                    </HBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement id="formElement7ID">
+                                <form:fields>
+                                    <HBox id="hBox17ID" justifyContent="SpaceBetween" height="25px">
+                                        <HBox id="hBox18ID" alignItems="Start">
+                                            <Label id="label7ID" text="" />
+                                        </HBox>
+                                        <HBox id="hBox19ID" alignItems="End">
+                                            <Label design="Bold" id="item7ID" text="Liquidated Damages" />
+                                        </HBox>
+                                    </HBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement id="formElement8ID">
+                                <form:fields>
+                                    <HBox id="hBox20ID" justifyContent="SpaceBetween" height="25px">
+                                        <HBox id="hBox21ID" alignItems="Start">
+                                            <Label id="label8ID" text="" />
+                                        </HBox>
+                                        <HBox id="hBox22ID" alignItems="End">
+                                            <Label design="Bold" id="item8ID" text="Warranty / Defect Liability Period" />
+                                        </HBox>
+                                    </HBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement id="formElement9ID">
+                                <form:fields>
+                                    <HBox id="hBox23ID" justifyContent="SpaceBetween" height="25px">
+                                        <HBox id="hBox24ID" alignItems="Start">
+                                            <Label id="label9ID" text="" />
+                                        </HBox>
+                                        <HBox id="hBox25ID" alignItems="End">
+                                            <Label design="Bold" id="item9ID" text="CPBG" />
+                                        </HBox>
+                                    </HBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement id="formElement10ID">
+                                <form:fields>
+                                    <HBox id="hBox26ID" justifyContent="SpaceBetween" height="25px">
+                                        <HBox id="hBox27ID" alignItems="Start">
+                                            <Label id="label10ID" text="" />
+                                        </HBox>
+                                        <HBox id="hBox28ID" alignItems="End">
+                                            <Label design="Bold" id="item10ID" text="Contact Person" />
+                                        </HBox>
+                                    </HBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement id="formElement11ID">
+                                <form:fields>
+                                    <HBox id="hBox29ID" justifyContent="SpaceBetween" height="25px">
+                                        <HBox id="hBox30ID" alignItems="Start">
+                                            <Label id="label11ID" text="" />
+                                        </HBox>
+                                        <HBox id="hBox31ID" alignItems="End">
+                                            <Label design="Bold" id="item11ID" text="Contact No." />
+                                        </HBox>
+                                    </HBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement id="formElement12ID">
+                                <form:fields>
+                                    <HBox id="hBox32sdsID" justifyContent="SpaceBetween" height="25px">
+                                        <HBox id="hBox33ID" alignItems="Start">
+                                            <Label id="label12ID" text="" />
+                                        </HBox>
+                                        <HBox id="hBox34ID" alignItems="End">
+                                            <Label design="Bold" id="item12ID" text=" Order can be given to……..." />
+                                        </HBox>
+                                    </HBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement id="formElement13ID">
+                                <form:fields>
+                                    <HBox id="hBox35ID" justifyContent="SpaceBetween" height="25px">
+                                        <HBox id="hBox36ID" alignItems="Start">
+                                            <Label id="label13ID" text="" />
+                                        </HBox>
+                                        <HBox id="hBox37ID" alignItems="End">
+                                            <Label design="Bold" id="item13ID" text=" Techncially Approved " />
+                                        </HBox>
+                                    </HBox>
+                                </form:fields>
+                            </form:FormElement>
+                            <form:FormElement id="formElement14ID">
+                                <form:fields>
+                                    <HBox id="hBox38ID" justifyContent="SpaceBetween" height="25px">
+                                        <HBox id="hBox39ID" alignItems="Start">
+                                            <Label id="label14ID" text="" />
+                                        </HBox>
+                                        <HBox id="hBox40ID" alignItems="End">
+                                            <Label design="Bold" id="item14ID" text="Approved Vendor" />
                                         </HBox>
                                     </HBox>
                                 </form:fields>
@@ -901,6 +1048,110 @@
                         </VBox>
 
                     </HBox>
+                    <form:Form id="sectionform1122" editable="false">
+                        <form:layout>
+                            <form:ResponsiveGridLayout id="r2esp112" labelSpanXL="4" labelSpanL="3" labelSpanM="4" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="0" emptySpanL="4" emptySpanM="0" emptySpanS="0" columnsXL="2" columnsL="1" columnsM="1" singleContainerFullSize="false" />
+                        </form:layout>
+                        <form:formContainers>
+                            <form:FormContainer id="fg12" ariaLabelledBy="Title">
+                                <form:formElements>
+                                    <form:FormElement id="112s22">
+                                        <form:fields>
+
+                                            <Text id="i2temdname2" text="Ex-Works Nashik" />
+
+                                        </form:fields>
+                                    </form:FormElement>
+                                    <form:FormElement id="112s2221">
+                                        <form:fields>
+
+                                            <Text id="i2123" text="Ex-Works Nashik" />
+
+                                        </form:fields>
+                                    </form:FormElement>
+                                    <form:FormElement id="1122ss">
+                                        <form:fields>
+
+                                            <Text id="i211" text="Receipt of order, Approved MDS – 0 date" />
+
+                                        </form:fields>
+                                    </form:FormElement>
+                                    <form:FormElement id="s22a2hf">
+                                        <form:fields>
+
+                                            <Text id="swa222f2" text="10% Total Contracts Price shall be released after submission of following documents:" />
+
+                                        </form:fields>
+                                    </form:FormElement>
+                                    <form:FormElement id="sn22a">
+                                        <form:fields>
+
+                                            <Text id="svwa2222" text="0.5% (Half percent) of Total Contract Price, subject to a maximum of 5%" />
+
+                                        </form:fields>
+                                    </form:FormElement>
+                                    <form:FormElement id="s2j2a2">
+                                        <form:fields>
+
+                                            <Text id="swah2222" text="Warranty for the performance of all the Ordered items/packages under the Contract" />
+
+                                        </form:fields>
+                                    </form:FormElement>
+                                    <form:FormElement id="s22a2w">
+                                        <form:fields>
+
+                                            <Text id="swa2222w" text="Corporate Guarantee shall be provided valid until the expiry of Defect Liability Period with further claim period validity of Six (06) months." />
+
+                                        </form:fields>
+                                    </form:FormElement>
+                                    <form:FormElement id="s2y2a">
+                                        <form:fields>
+
+                                            <Text id="sfwa222" text="Mr.Prashant Bachhav / Mr.Saket Mathur" />
+
+                                        </form:fields>
+                                    </form:FormElement>
+
+                                    <form:FormElement id="usa22a">
+                                        <form:fields>
+
+                                            <Text id="nswa222" text="Mr.Prashant Bachhav, Mob No:9860252880/ Mr.Saket Mathur ,Mob No:7095557701" />
+
+                                        </form:fields>
+                                    </form:FormElement>
+                                    <form:FormElement id="sj22a">
+                                        <form:fields>
+
+                                            <Text id="swaff222" text=" M/s Artson Engineering Ltd " />
+
+                                        </form:fields>
+                                    </form:FormElement>
+                                    <form:FormElement id="shh22a">
+                                        <form:fields>
+
+                                            <Text id="shhhwa222" text="Technically Accepted" />
+
+                                        </form:fields>
+                                    </form:FormElement>
+                                    <form:FormElement id="s2uiu2a">
+                                        <form:fields>
+
+                                            <Text id="sytwa222" text="Yes" />
+
+                                        </form:fields>
+                                    </form:FormElement>
+                                    <form:FormElement id="uius22a">
+                                        <form:fields>
+
+                                            <Text id="s88wa222" text="Receipt of order, Approved MDS – 0 date" />
+
+                                        </form:fields>
+                                    </form:FormElement>
+                                </form:formElements>
+                            </form:FormContainer>
+                        </form:formContainers>
+                    </form:Form>
+
                     <Text id='txt1as1' text="Receipt of order, Approved MDS – 0 date"></Text>
                 </VBox>
 
