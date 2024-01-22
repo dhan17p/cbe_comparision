@@ -1,13 +1,5 @@
 # CAP cbe_main_app
-_out
-*.db
-*.sqlite
-connection.properties
-default-*.json
-.cdsrc-private.json
-gen/
 node_modules/
-target/
 
 # Web IDE, App Studio
 .che/
