@@ -2475,37 +2475,37 @@
                                     </form:FormElement>
                                     <form:FormElement id="1122ssaw">
                                         <form:fields>
-                                            <HBox id="hbox3aw" height="25px">
-                                                <Text id="i211aw" text="15 Months for supply at site" />
-                                            </HBox>
+                                           <ScrollContainer vertical="true" id='newscrollcontainerf31' width="500px" height="100px">
+                                                <Text id="i211aw" text="15 Months for supply at site" width="100%" wrapping="true" />
+                                           </ScrollContainer>
                                         </form:fields>
                                     </form:FormElement>
                                     <form:FormElement id="s22a2hfaw">
                                         <form:fields>
-                                            <HBox id="hbox4aw" height="25px">
-                                                <Text id="swa222f2wa" text="For 10% advane payment purpose" />
-                                            </HBox>
+                                            <ScrollContainer vertical="true" id='newscrollcontainerf32' width="500px" height="100px">
+                                                <Text id="swa222f2wa" text="1) For 10% advane payment purpose QAP/IPT, Datasheets, drawings and related documents requirement may please be removed as it will take 12 weeks time for completion. (2) 70% payment through irrevocable LC (from a first class bank which is rated not less than A- by S and P or A3 by Moody  against despatch documents on prorata basis for each Vessel (3 ) 15% payment due against the commissioning may please be released against submission of equivalent BG or irrecovable LC ( from a first class bank which is rated not less than A- by S and P or A3 by Moody s) which will be valid upto final acceptance by TPL (4) 5% payment due against receipt of As built drawings may please be released against submission of equivalent BG which will be valid upto submission of As built drawings "  width="100%" wrapping="true"/>
+                                                </ScrollContainer>
                                         </form:fields>
                                     </form:FormElement>
                                     <form:FormElement id="sn22aaw">
                                         <form:fields>
-                                            <HBox id="hbox5aw" height="27px">
-                                                <Text id="svwa2222aw" text="1% to 10%" />
-                                            </HBox>
+                                            <ScrollContainer vertical="true" id='newscrollcontainerf33' width="500px" height="100px">
+                                                <Text id="svwa2222aw" text="1% to 10%"  width="100%" wrapping="true" />
+                                          </ScrollContainer>
                                         </form:fields>
                                     </form:FormElement>
                                     <form:FormElement id="s2j2a2aw">
                                         <form:fields>
-                                            <HBox id="hbox6aw" height="27px">
-                                                <Text id="swah2222aw" text="12 Months from the date of Blowdown or 18 Months from Supply" />
-                                            </HBox>
+                                             <ScrollContainer vertical="true" id='newscrollcontainerf34' width="500px" height="100px">
+                                                <Text id="swah2222aw" text="12 Months from the date of Blowdown or 18 Months from Supply"  width="100%" wrapping="true" />
+                                             </ScrollContainer>
                                         </form:fields>
                                     </form:FormElement>
                                     <form:FormElement id="s22a2waw">
                                         <form:fields>
-                                            <HBox id="hbox7aw" height="26px">
-                                                <Text id="swa2222waw" text="10% CPBG shall be submitted within 10 days from the date of receipt of this Contract." />
-                                            </HBox>
+                                              <ScrollContainer vertical="true" id='newscrollcontainer35' width="500px" height="100px">
+                                                <Text id="swa2222waw" text="10% CPBG shall be submitted within 10 days from the date of receipt of this Contract."  width="100%" wrapping="true"/>
+                                             </ScrollContainer>
                                         </form:fields>
                                     </form:FormElement>
                                     <form:FormElement id="s2y2aaw">
@@ -2939,37 +2939,37 @@
                                     </form:FormElement>
                                     <form:FormElement id="1122ssawe">
                                         <form:fields>
-                                            <HBox id="hbox3awe" height="25px">
-                                                <Text id="i211awe" text="Not Provided" />
-                                            </HBox>
+                                           <ScrollContainer vertical="true" id='newscrollcontainer71' width="500px" height="100px">
+                                                <Text id="i211awe" text="Not Provided" width="100%" wrapping="true"/>
+                                            </ScrollContainer>
                                         </form:fields>
                                     </form:FormElement>
                                     <form:FormElement id="s22a2hfawe">
                                         <form:fields>
-                                            <HBox id="hbox4awe" height="25px">
-                                                <Text id="swa222f2wae" text="10% of Total Contract " />
-                                            </HBox>
+                                            <ScrollContainer vertical="true" id='newscrollcontainer72' width="500px" height="100px">
+                                                <Text id="swa222f2wae" text=" The payment terms shall be as follows:(1) 10% of Total Contract Value shall be payable as advance against submission of following documents: (a) Advance Bank Guarantee (ABG) of equivalent amount (10%). (b) Submission of Contract Performance Bank Guarantee (CPBG) of 10% of Total Contract Price (c) Unconditional acceptance of the LOA and/or PO. (d) QAP/ITP, Data sheets, drawings and other related engineering inputs/ documents for providing manufacturing clearance. (e) Correct Original Pro-Forma Invoice to claim Advance amount.(2) 70% of Total Contract Value shall be payable upon receipt of all the materials/equipment at ISRO project site after successful inspection, issuance of Acceptance Cum Release Note (ACRN) by TPL and against submission of Original invoice copy.(3) 10% of Total Contract Value shall be payable upon successful commissioning, Performance Guarantee Test Run (PGTR) and final acceptance by TPL and/or ISRO.(4) 10% of Total Contract Value shall be payable upon receipt of As built Drawings, Final Document Dossier and O qand M manual.All payment terms shall be on pro-rata basis. Payment shall be released within 45 days via E-payment systemâ€ (through NEFT/RTGS/Bank to Bank transfer) and on submission of certified invoices as per the instructions in the Purchase Order.All invoices for payments must mention TPL job no. OG-500047, shall be raised in the name of M/s. Tata Projects Limited and shall be sent as detailed in the Purchase Order."  width="100%" wrapping="true" />
+                                             </ScrollContainer>
                                         </form:fields>
                                     </form:FormElement>
                                     <form:FormElement id="sn22aawe">
                                         <form:fields>
-                                            <HBox id="hbox5awe" height="27px">
-                                                <Text id="svwa2222awe" text="Not Acceptable" />
-                                            </HBox>
+                                          <ScrollContainer vertical="true" id='newscrollcontainer73' width="500px" height="100px">
+                                                <Text id="svwa2222awe" text="Not Acceptable" width="100%" wrapping="true"/>
+                                           </ScrollContainer>
                                         </form:fields>
                                     </form:FormElement>
                                     <form:FormElement id="s2j2a2awe">
                                         <form:fields>
-                                            <HBox id="hbox6awe" height="27px">
-                                                <Text id="swah2222awe" text="upplier shall provide warranty" />
-                                            </HBox>
+                                           <ScrollContainer vertical="true" id='newscrollcontainer74' width="500px" height="100px">
+                                                <Text id="swah2222awe" text="upplier shall provide warranty for the performance of all the Ordered items/packages under the Contract, against any manufacturing defects, for the period of 24 (Twenty Four) months from the date of first Blow Down (i.e. tentalively 05-May-2021) and final acceptance in writing by TPL and/or ISRO or 40 (Forty) months from the date of last supply at project site " width="100%" wrapping="true"/>
+                                             </ScrollContainer>
                                         </form:fields>
                                     </form:FormElement>
                                     <form:FormElement id="s22a2wawe">
                                         <form:fields>
-                                            <HBox id="hbox7awe" height="26px">
-                                                <Text id="swa2222wawe" text=" 5% of CPBG	" />
-                                            </HBox>
+                                            <ScrollContainer vertical="true" id='newscrollcontainer75' width="500px" height="100px">
+                                                <Text id="swa2222wawe" text=" 5% of CPBG" width="100%" wrapping="true"/>
+                                         </ScrollContainer>
                                         </form:fields>
                                     </form:FormElement>
                                     <form:FormElement id="s2y2aawe">
