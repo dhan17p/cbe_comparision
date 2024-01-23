@@ -7,7 +7,7 @@
     xmlns:macro="sap.fe.macros.table"
     xmlns:uxap="sap.uxap">
     <HBox id="hb1">
-        <VBox id="vb1">
+        <VBox id="vb1" width="30%">
             <form:Form id="form1" editable="false">
                 <form:layout>
                     <form:ResponsiveGridLayout id="resp1" labelSpanXL="4" labelSpanL="3" labelSpanM="4" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="0" emptySpanL="4" emptySpanM="0" emptySpanS="0" columnsXL="2" columnsL="1" columnsM="1" singleContainerFullSize="false" />
@@ -92,26 +92,26 @@
                     </form:FormContainer>
                 </form:formContainers>
             </form:Form>
-            <HBox id="testtest">
-                <Table id="myTable14" items="{/Item}" growing="true" fixedLayout="false">
+            <HBox id="testtest" width="100%">
+                <Table id="myTable14" items="{/Item}" growing="true" fixedLayout="true" width="100%">
                     <!--  Define columns and bindings for the table  -->
                     <columns>
 
                         <Column id="col2">
-                            <Text id="t2" text="Item Desc" wrapping="false" />
+                            <Text id="t2" text="Item Desc" tooltip="Item Desc" wrapping="false" />
                         </Column>
                         <Column id="col3">
                             <Text id="t3" text="Cap each" tooltip="Capacity each(in mtr)" wrapping="false" />
                         </Column>
                         <Column id="col4">
-                            <Text id="t4" text="Dia mm" wrapping="false" />
+                            <Text id="t4" text="Dia mm" tooltip="Dia mm" wrapping="false" />
                         </Column>
                         <Column id="col5">
                             <Text id="t5" text="TL-TL" tooltip="TL to TL Length (in mm)" wrapping="false" />
                         </Column>
 
                         <Column id="col6">
-                            <Text id="t6" text="MOC" wrapping="false"/>
+                            <Text id="t6" text="MOC" tooltip="MOC" wrapping="false"/>
                         </Column>
                         <Column id="col7">
                             <Text id="t7" text="DPB" tooltip="Design Pressure Bar" wrapping="false" />
@@ -120,20 +120,20 @@
                             <Text id="t8" text="Wgh" tooltip="Weight (in Kgs)" wrapping="false" />
                         </Column>
                         <Column id="col9">
-                            <Text id="t9" text=" Qty No" wrapping="false" />
+                            <Text id="t9" text=" Qty No" tooltip="Qty No" wrapping="false" />
                         </Column>
                     </columns>
                     <items>
                         <ColumnListItem id="item1">
                             <cells >
-                                <Text id="tc2" text="{itemname}" wrapping="false" />
-                                <Text id="tc3" text="{capacity_each}" wrapping="false" />
-                                <Text id="tc4" text="{dia_mm}" wrapping="false"/>
-                                <Text id="tc5" text="{tl_to_tl_length}" wrapping="false" />
-                                <Text id="tc6" text="{moc}" wrapping="false"/>
-                                <Text id="tc7" text="{design_pressure_bar}" wrapping="false" />
-                                <Text id="tc8" text="{weights}" wrapping="false" />
-                                <Text id="tc9" text="{quantity}" wrapping="false" />
+                                <Text id="tc2" text="{itemname}" tooltip="{itemname}" wrapping="false" />
+                                <Text id="tc3" text="{capacity_each}" tooltip="{capacity_each}" wrapping="false" />
+                                <Text id="tc4" text="{dia_mm}" tooltip="{dia_mm}" wrapping="false"/>
+                                <Text id="tc5" text="{tl_to_tl_length}" tooltip="{tl_to_tl_length}" wrapping="false" />
+                                <Text id="tc6" text="{moc}" tooltip="{moc}" wrapping="false"/>
+                                <Text id="tc7" text="{design_pressure_bar}" tooltip="{design_pressure_bar}" wrapping="false" />
+                                <Text id="tc8" text="{weights}" tooltip="{weights}" wrapping="false" />
+                                <Text id="tc9" text="{quantity}" tooltip="{quantity}" wrapping="false" />
 
                                 <!--  Bind other properties accordingly  -->
                             </cells>
@@ -550,7 +550,7 @@
                                         <form:fields>
                                             <HBox id="hb1s1" justifyContent="Center" height="11px">
 
-                                                <Title id="itemdname" text="Artson Enginerring Ltd" />
+                                                <Title id="itemdname" text="Artson Enginerring Ltd" wrapping='true'/>
                                             </HBox>
                                         </form:fields>
                                     </form:FormElement>
@@ -571,7 +571,7 @@
                     <!-- ... (your existing form structure) ... -->
 
                     <!-- HBox for Tables -->
-                    <HBox id="tablesHBox">
+                                        <HBox id="tablesHBox">
                         <!-- Original Offer Table -->
 
                         <VBox id= "v7677">
@@ -596,7 +596,7 @@
                                         <Text id="t331121" text="unit rate(INR)" wrapping="false"/>
                                     </Column>
                                     <Column id="221c21">
-                                        <Text id="t322" text="unit rate(KG)" wrapping="false" />
+                                        <Text id="t322" text="unit rate/KG" wrapping="false" />
                                     </Column>
                                     <Column id="2222">
                                         <Text id="t3321c" text="Total Amount (INR)" wrapping="false"/>
@@ -606,9 +606,9 @@
                                 <items>
                                     <ColumnListItem id="item111232">
                                         <cells>
-                                            <Text id="t2312" text="39000" />
+                                            <Text id="t2312" text="3,90,95,000 " />
                                             <Text id="tab212" text="178" />
-                                            <Text id="texr33" text=" 234570000 " />
+                                            <Text id="texr33" text="  23,45,70,000" />
                                             <!--  Bind other properties accordingly  -->
                                         </cells>
 
@@ -631,7 +631,7 @@
                                         <cells>
                                             <Text id="t235" text=" " />
                                             <Text id="ta35" text=" " />
-                                            <Text id="txt5" text="50000" />
+                                            <Text id="txt5" text=" 23,46,20,000" />
                                         </cells>
                                     </ColumnListItem>
                                     <ColumnListItem id="item46">
@@ -659,7 +659,7 @@
                                         <cells>
                                             <Text id="t239" text=" " />
                                             <Text id="ta39" text=" " />
-                                            <Text id="txt9" text="50000" />
+                                            <Text id="txt9" text=" 23,46,20,000                                            " />
                                         </cells>
                                     </ColumnListItem>
                                     <ColumnListItem id="item410">
@@ -687,7 +687,7 @@
                                         <cells>
                                             <Text id="t1313" text="18%" />
                                             <Text id="ta313" text=" " />
-                                            <Text id="txt13" text="9000" />
+                                            <Text id="txt13" text=" 4,22,31,600                                            " />
                                         </cells>
                                     </ColumnListItem>
 
@@ -709,14 +709,14 @@
                                         <cells>
                                             <Text id="t1317" text=" " />
                                             <Text id="ta317" text=" " />
-                                            <Text id="txt17" text="59000" />
+                                            <Text id="txt17" text="27,68,51,600                                              " />
                                         </cells>
                                     </ColumnListItem>
                                     <ColumnListItem id="item418">
                                         <cells>
                                             <Text id="t1318" text=" " />
                                             <Text id="ta318" text=" " />
-                                            <Text id="txt18" text="50000" />
+                                            <Text id="txt18" text="  23,46,20,000                                            " />
                                         </cells>
                                     </ColumnListItem>
                                     <ColumnListItem id="item419">
@@ -759,7 +759,7 @@
                                         <Text id="t3311" text="unit rate(INR)" wrapping="false" />
                                     </Column>
                                     <Column id="221c">
-                                        <Text id="t3322" text="unit rate(KG)" wrapping="false" />
+                                        <Text id="t3322" text="unit rate/KG" wrapping="false" />
                                     </Column>
                                     <Column id="221d">
                                         <Text id="t3323" text="Total Amount (INR)" wrapping="false" />
@@ -769,9 +769,9 @@
                                 <items>
                                     <ColumnListItem id="item11232">
                                         <cells>
-                                            <Text id="text2312" text="39000" />
-                                            <Text id="text212" text="178" />
-                                            <Text id="text33" text=" 234570000 " />
+                                            <Text id="text2312" text=" 3,51,66,666                                             " />
+                                            <Text id="text212" text="160" />
+                                            <Text id="text33" text="  21,09,99,996                                             " />
                                             <!--  Bind other properties accordingly  -->
                                         </cells>
                                     </ColumnListItem>
@@ -786,14 +786,14 @@
                                         <cells>
                                             <Text id="text234" text=" " />
                                             <Text id="texta34" text=" " />
-                                            <Text id="texttxt34" text="50000" />
+                                            <Text id="texttxt34" text=" " />
                                         </cells>
                                     </ColumnListItem>
                                     <ColumnListItem id="item155">
                                         <cells>
                                             <Text id="text235" text=" " />
                                             <Text id="texta35" text=" " />
-                                            <Text id="texttxt5" text="50000" />
+                                            <Text id="texttxt5" text=" 21,09,99,996                                             " />
                                         </cells>
                                     </ColumnListItem>
                                     <ColumnListItem id="item1416">
@@ -821,7 +821,7 @@
                                         <cells>
                                             <Text id="text239" text=" " />
                                             <Text id="texta39" text=" " />
-                                            <Text id="texttxt9" text="50000" />
+                                            <Text id="texttxt9" text=" 21,09,99,996                                             " />
                                         </cells>
                                     </ColumnListItem>
                                     <ColumnListItem id="item1410">
@@ -849,7 +849,7 @@
                                         <cells>
                                             <Text id="text1313" text="18%" />
                                             <Text id="texta313" text=" " />
-                                            <Text id="texttxt13" text="9000" />
+                                            <Text id="texttxt13" text=" 3,79,79,999                                            " />
                                         </cells>
                                     </ColumnListItem>
 
@@ -878,14 +878,14 @@
                                         <cells>
                                             <Text id="text1318" text=" " />
                                             <Text id="texta318" text=" " />
-                                            <Text id="texttxt18" text="50000" />
+                                            <Text id="texttxt18" text=" 24,89,79,995                                             " />
                                         </cells>
                                     </ColumnListItem>
                                     <ColumnListItem id="item1419">
                                         <cells>
                                             <Text id="text1319" text=" " />
                                             <Text id="texta319" text=" " />
-                                            <Text id="texttxt19" text=" " />
+                                            <Text id="texttxt19" text=" 21,09,99,996                                             " />
                                         </cells>
                                     </ColumnListItem>
                                     <ColumnListItem id="item1420">
@@ -922,7 +922,7 @@
                                         <Text id="t331" text="unit rate(INR)" wrapping="false"/>
                                     </Column>
                                     <Column id="col23">
-                                        <Text id="t333" text="unit rate(KG)" wrapping="false"/>
+                                        <Text id="t333" text="unit rate/KG" wrapping="false"/>
                                     </Column>
                                     <Column id="col22">
                                         <Text id="t332" text="Total Amount (INR)" wrapping="false"/>
@@ -932,9 +932,9 @@
                                 <items>
                                     <ColumnListItem id="item1112932">
                                         <cells>
-                                            <Text id="unitRateINR" text="39000" />
-                                            <Text id="unitRateKG" text="178" />
-                                            <Text id="totalAmount" text=" 234570000 " />
+                                            <Text id="unitRateINR" text=" 3,38,75,000                                             " />
+                                            <Text id="unitRateKG" text=" 154                                             " />
+                                            <Text id="totalAmount" text="  20,32,50,000                                            " />
                                             <!--  Bind other properties accordingly  -->
                                         </cells>
                                     </ColumnListItem>
@@ -949,14 +949,14 @@
                                         <cells>
                                             <Text id="text2341" text=" " />
                                             <Text id="texta341" text=" " />
-                                            <Text id="texttxt341" text="50000" />
+                                            <Text id="texttxt341" text="" />
                                         </cells>
                                     </ColumnListItem>
                                     <ColumnListItem id="item4551">
                                         <cells>
                                             <Text id="text2351" text=" " />
                                             <Text id="texta351" text=" " />
-                                            <Text id="texttxt51" text="50000" />
+                                            <Text id="texttxt51" text=" 20,32,50,000                                            " />
                                         </cells>
                                     </ColumnListItem>
                                     <ColumnListItem id="item461">
@@ -984,7 +984,7 @@
                                         <cells>
                                             <Text id="text2391" text=" " />
                                             <Text id="texta391" text=" " />
-                                            <Text id="texttxt119" text="50000" />
+                                            <Text id="texttxt119" text=" 20,32,50,000                                            " />
                                         </cells>
                                     </ColumnListItem>
                                     <ColumnListItem id="item4110">
@@ -996,7 +996,7 @@
                                     </ColumnListItem>
                                     <ColumnListItem id="item4111">
                                         <cells>
-                                            <Text id="text23111" text="NA" />
+                                            <Text id="text23111" text="" />
                                             <Text id="texta3111" text=" " />
                                             <Text id="texttxt111" text=" " />
                                         </cells>
@@ -1010,9 +1010,9 @@
                                     </ColumnListItem>
                                     <ColumnListItem id="item4131">
                                         <cells>
-                                            <Text id="text13131" text="18%" />
+                                            <Text id="text13131" text="" />
                                             <Text id="texta3131" text=" " />
-                                            <Text id="texttxt131" text="9000" />
+                                            <Text id="texttxt131" text="" />
                                         </cells>
                                     </ColumnListItem>
 
@@ -1025,7 +1025,7 @@
                                     </ColumnListItem>
                                     <ColumnListItem id="item4161">
                                         <cells>
-                                            <Text id="text13161" text="By TPL" />
+                                            <Text id="text13161" text=" " />
                                             <Text id="texta3161" text=" " />
                                             <Text id="texttxt161" text=" " />
                                         </cells>
@@ -1034,14 +1034,14 @@
                                         <cells>
                                             <Text id="text13171" text=" " />
                                             <Text id="texta3171" text=" " />
-                                            <Text id="texttxt171" text="59000" />
+                                            <Text id="texttxt171" text=" 20,32,50,000                                            " />
                                         </cells>
                                     </ColumnListItem>
                                     <ColumnListItem id="item4181">
                                         <cells>
                                             <Text id="text13181" text=" " />
                                             <Text id="texta3181" text=" " />
-                                            <Text id="texttxt181" text="50000" />
+                                            <Text id="texttxt181" text=" 20,32,50,000                                            " />
                                         </cells>
                                     </ColumnListItem>
                                     <ColumnListItem id="item4191">
@@ -1221,7 +1221,7 @@
                                         <Text id="t3311216" text="unit rate(INR)" wrapping="false"/>
                                     </Column>
                                     <Column id="221c216">
-                                        <Text id="t3226" text="unit rate(KG)" wrapping="false" />
+                                        <Text id="t3226" text="unit rate /KG" wrapping="false" />
                                     </Column>
                                     <Column id="22226">
                                         <Text id="t3321c6" text="Total Amount (INR)" wrapping="false"/>
@@ -1384,7 +1384,7 @@
                                         <Text id="t33116" text="unit rate(INR)" wrapping="false" />
                                     </Column>
                                     <Column id="221c6">
-                                        <Text id="t33226" text="unit rate(KG)" wrapping="false" />
+                                        <Text id="t33226" text="unit rate /KG" wrapping="false" />
                                     </Column>
                                     <Column id="221d6">
                                         <Text id="t33236" text="Total Amount (INR)" wrapping="false" />
@@ -1683,7 +1683,7 @@
                                         <Text id="t331121z" text="unit rate(INR)" wrapping="false"/>
                                     </Column>
                                     <Column id="221c21z">
-                                        <Text id="t322z" text="unit rate(KG)" wrapping="false" />
+                                        <Text id="t322z" text="unit rate /KG" wrapping="false" />
                                     </Column>
                                     <Column id="2222z">
                                         <Text id="t3321cz" text="Total Amount (INR)" wrapping="false"/>
@@ -1694,7 +1694,7 @@
                                     <ColumnListItem id="item111232z">
                                         <cells>
                                             <Text id="t2312z" text=" 7,02,50,000 " />
-                                            <Text id="tab212z" text=" c " />
+                                            <Text id="tab212z" text=" 319 " />
                                             <Text id="texr33z" text=" 42,15,00,000 " />
                                             <!--  Bind other properties accordingly  -->
                                         </cells>
@@ -1846,7 +1846,7 @@
                                         <Text id="t3311z" text="unit rate(INR)" wrapping="false" />
                                     </Column>
                                     <Column id="221cz">
-                                        <Text id="t3322z" text="unit rate(KG)" wrapping="false" />
+                                        <Text id="t3322z" text="unit rate /KG" wrapping="false" />
                                     </Column>
                                     <Column id="221dz">
                                         <Text id="t3323z" text="Total Amount (INR)" wrapping="false" />
@@ -2147,7 +2147,7 @@
                                         <Text id="t3311216w" text="unit rate(INR)" wrapping="false"/>
                                     </Column>
                                     <Column id="221c216w">
-                                        <Text id="t3226w" text="unit rate(KG)" wrapping="false" />
+                                        <Text id="t3226w" text="unit rate /KG" wrapping="false" />
                                     </Column>
                                     <Column id="22226w">
                                         <Text id="t3321c6w" text="Total Amount (INR)" wrapping="false"/>
@@ -2310,7 +2310,7 @@
                                         <Text id="t33116w" text="unit rate(INR)" wrapping="false" />
                                     </Column>
                                     <Column id="221c6w">
-                                        <Text id="t33226w" text="unit rate(KG)" wrapping="false" />
+                                        <Text id="t33226w" text="unit rate /KG" wrapping="false" />
                                     </Column>
                                     <Column id="221d6w">
                                         <Text id="t33236w" text="Total Amount (INR)" wrapping="false" />
@@ -2611,7 +2611,7 @@
                                         <Text id="t3311216we" text="unit rate(INR)" wrapping="false"/>
                                     </Column>
                                     <Column id="221c216we">
-                                        <Text id="t3226we" text="unit rate(KG)" wrapping="false" />
+                                        <Text id="t3226we" text="unit rate /KG" wrapping="false" />
                                     </Column>
                                     <Column id="22226we">
                                         <Text id="t3321c6we" text="Total Amount (INR)" wrapping="false"/>
@@ -2774,7 +2774,7 @@
                                         <Text id="t33116we" text="unit rate(INR)" wrapping="false" />
                                     </Column>
                                     <Column id="221c6we">
-                                        <Text id="t33226we" text="unit rate(KG)" wrapping="false" />
+                                        <Text id="t33226we" text="unit rate /KG" wrapping="false" />
                                     </Column>
                                     <Column id="221d6we">
                                         <Text id="t33236we" text="Total Amount (INR)" wrapping="false" />
