@@ -1086,38 +1086,38 @@
                                         </form:fields>
                                     </form:FormElement>
                                     <form:FormElement id="1122ss">
-                                        <form:fields>
-                                            <HBox id="hb12ox3" height="25px">
-                                                <Text id="i211" text="Receipt of order, Approved MDS – 0 date" />
-                                            </HBox>
+                                         <form:fields>
+                                           <ScrollContainer vertical="true" id='newscrol1lcontainer' width="500px" height="100px">
+                                                <Text id="i211" text="Receipt of order, Approved MDS 0 date; Duration : Milestone *To + 6 Weeks : Design and Drawing preparation and approval from CCOE-PESO office To + 12 Weeks : Material procurement To + 24 Weeks : Manufacturing, NDT clearance To + 26 Weeks : Surface preparation, primer painting To + 27 Weeks : Dispatch of 1st consignment ( 6 Pieces ) To + 31 Weeks : Dispatch of 2nd consignment ( 6 Pieces )"  width="100%" wrapping="true"  />
+                                                  </ScrollContainer>
                                         </form:fields>
                                     </form:FormElement>
                                     <form:FormElement id="s22a2hf">
                                         <form:fields>
-                                            <HBox id="h12box4" height="25px">
-                                                <Text id="swa222f2" text="10% Total Contracts Price shall be released after submission of following documents:" />
-                                            </HBox>
-                                        </form:fields>
+                                          <ScrollContainer vertical="true" id='news1crollcon1tainer122' width="500px" height="100px">
+                                                <Text id="swa222f2" text="10% Total Contracts Price shall be released after submission of following documents: a) Corporate Guarantee for advance equivalent to 10% of Total Contract Price. b) Correct Proforma invoice c) Corporate Performance Guarantee for 10% of Total Contract Price to be submitted within 15 days from the date of PO date. d Unconditional acceptance of Purchase Order. 2) 10% Total Contract Price shall be released after design and drawing approval and submission of Corporate Guarantee of equivalent amount. 3) 20% Total Contracts Price shall be released within 30 days upon receipt of major materials like: a) Plates b) Corporate Guarantee of equivalent amount. 4. 30% of the Total Contract Price shall be payable within 30 days after dispatch. 5. 10% of the Total Contract Price shall be payable within 30 days upon successful Hydrotest at site 6.15% of the Total Contract Price shall be payable within 30 days upon successful NDT at site 6. 5% of the Total Contract Price shall be payable within 30 days upon handing over of Tank , submission of as built Drawings and Final Document Dossier. All payment shall be released after completion of approved milestone. Payments shall be released through NEFT/RTGS/Bank to Bank transfer upon receipt of certified invoice. All invoices for payments must mention TPL job no. OG-500047-ISRO-SIET. Commercial Invoices shall be consigned to M/s Tata Projects Limited, Floor 2, Transocean House, Lake Boulevard Road, Hiranandani Business Park, Powai, Mumbai-400 076, India. All Bank Guarantees shall be as per TPL formats and shall be sent to TPL, RO Mumbai at Powai. "  width="100%" wrapping="true"  />
+                                           </ScrollContainer>
+                                        </form:fields> 
                                     </form:FormElement>
                                     <form:FormElement id="sn22a">
                                         <form:fields>
-                                            <HBox id="h12box5" height="27px">
-                                                <Text id="svwa2222" text="0.5% (Half percent) of Total Contract Price, subject to a maximum of 5%" />
-                                            </HBox>
+                                           <ScrollContainer vertical="true" id='news1crollcontainer11' width="500px" height="100px">
+                                                <Text id="svwa2222" text="0.5% (Half percent) of Total Contract Price, subject to a maximum of 5% (Five percent) of the Total Contract Price, for each calendar week of delay or part thereof. " width="100%" wrapping="true" />
+                                            </ScrollContainer>
                                         </form:fields>
                                     </form:FormElement>
                                     <form:FormElement id="s2j2a2">
                                         <form:fields>
-                                            <HBox id="h12box6" height="27px">
-                                                <Text id="swah2222" text="Warranty for the performance of all the Ordered items/packages under the Contract" />
-                                            </HBox>
+                                        <ScrollContainer vertical="true" id='news1crollcontainer12' width="500px" height="100px">
+                                                <Text id="swah2222" text="Warranty for the performance of all the Ordered items/packages under the Contract, against any manufacturing defects, for the period of 18 (Eighteen) months from the date of issue of certificate of completion and final acceptance in writing by TPL and/or ISRO or 36 (Thirty-Six) months from the date of last supply at project site, whichever is earlier. During this period, all the relevant cost towards repair and/or replacement of defective parts/items shall be borne by Supplier. Any part / item repaired and/or replaced shall be under a further warranty for a period of 12 months from the date of acceptance of such repaired and/or replaced part/ item. " width="100%" wrapping="true" />
+                                             </ScrollContainer>
                                         </form:fields>
                                     </form:FormElement>
                                     <form:FormElement id="s22a2w">
                                         <form:fields>
-                                            <HBox id="hb12ox7" width="100%" height="26px">
-                                                <Text id="swa2222w" text="Corporate Guarantee shall be provided valid until the expiry of Defect Liability Period with further claim period validity of Six (06) months." width="70%" wrapping="true"/>
-                                            </HBox>
+                                           <ScrollContainer vertical="true" id='news1crollcontainer13' width="500px" height="100px">
+                                                <Text id="swa2222w" text="Corporate Guarantee shall be provided valid until the expiry of Defect Liability Period with further claim period validity of Six (06) months. " width="70%" wrapping="true"/>
+                                          </ScrollContainer>
                                         </form:fields>
                                     </form:FormElement>
                                     <form:FormElement id="s2y2a">
@@ -1549,37 +1549,37 @@
                                     </form:FormElement>
                                     <form:FormElement id="1122ssa">
                                         <form:fields>
-                                            <HBox id="hbox3a" height="25px">
+                                             <ScrollContainer vertical="true" id='newscrollcontainer9221' width="500px" height="100px">
                                                 <Text id="i211a" text="60 Weeks" />
-                                            </HBox>
+                                              </ScrollContainer>
                                         </form:fields>
                                     </form:FormElement>
                                     <form:FormElement id="s22a2hfa">
                                         <form:fields>
-                                            <HBox id="hbox4a" height="25px">
-                                                <Text id="swa222f2a" text="  10% of Total Contract Value shall be payable as advance against submission of following documents:" />
-                                            </HBox>
+                                           <ScrollContainer vertical="true" id='newscrollcontainer91' width="500px" height="100px">
+                                                <Text id="swa222f2a" text="(1) 10% of Total Contract Value shall be payable as advance against submission of following documents: (a) Advance Bank Guarantee (ABG) of equivalent amount (10%). (b) Submission of Contract Performance Bank Guarantee (CPBG) of 10% of Total Contract Price as mentioned under Clause no-11 of this SCC. (c) Unconditional acceptance of the LOA and/or PO. (d) QAP/ITP, Data sheets, drawings and other related engineering inputs/ documents for providing manufacturing clearance. (e) Correct Original Pro-Forma Invoice to claim Advance amount. (2) 70% of Total Contract Value shall be payable upon receipt of all the materials/equipment at ISRO project site after successful inspection, issuance of Acceptance Cum Release Note (ACRN) by TPL and against submission of Original invoice copy. (3) 10% of Total Contract Value shall be payable upon successful commissioning, Performance Guarantee Test Run (PGTR) and final acceptance by TPL and/or ISRO. (4) 10% of Total Contract Value shall be payable upon receipt of As built Drawings, Final Document Dossier O M manual. All payment terms shall be on pro-rata basis. Payment shall be released within 45 days via E-payment system” (through NEFT/RTGS/Bank to Bank transfer) and on submission of certified invoices as per the instructions in the Purchase Order." width="100%" wrapping="true"/>
+                                            </ScrollContainer>
                                         </form:fields>
                                     </form:FormElement>
                                     <form:FormElement id="sn22aa">
                                         <form:fields>
-                                            <HBox id="hbox5a" height="27px">
+                                            <ScrollContainer vertical="true" id='newscrollcontainer92' width="500px" height="100px">
                                                 <Text id="svwa2222a" text="LD of 0.5% for per weeks delay to a max. 5% of PO value" />
-                                            </HBox>
+                                            </ScrollContainer>
                                         </form:fields>
                                     </form:FormElement>
                                     <form:FormElement id="s2j2a2a">
                                         <form:fields>
-                                            <HBox id="hbox6a" height="27px">
-                                                <Text id="swah2222a" text="Warranty for the performance of all the Ordered items/packages under the Contract" />
-                                            </HBox>
+                                           <ScrollContainer vertical="true" id='newscrollcontainer93' width="500px" height="100px">
+                                                <Text id="swah2222a" text="Warranty for the performance of all the Ordered items/packages under the Contract, against any manufacturing defects, for the period of 12 (Twelve) months from the date of issue of certificate of completion and final acceptance in writing by TPL and/or ISRO or 15 (Fifteen) months from the date of last supply at project site, whichever is earlier. Warrantee shall not apply to wear  tear parts, rubber seals, gasket etc and shall not apply in case of improper/operations and modifications or repairs incorrectly carried out."  width="100%" wrapping="true" />
+                                          </ScrollContainer>
                                         </form:fields>
                                     </form:FormElement>
                                     <form:FormElement id="s22a2wa">
                                         <form:fields>
-                                            <HBox id="hbox7a" height="26px">
-                                                <Text id="swa2222wa" text="Corporate Guarantee valid til the expiry of Defect Liability Prd with further claim period validity of (06) months." />
-                                            </HBox>
+                                            <ScrollContainer vertical="true" id='newscrollcontainer9223' width="500px" height="100px">
+                                                <Text id="swa2222wa" text="10% CPBG shall be submitted within 10 days from the date of receipt of this Contract" width="100%" wrapping="true" />
+                                             </ScrollContainer>
                                         </form:fields>
                                     </form:FormElement>
                                     <form:FormElement id="s2y2aa">
@@ -2011,37 +2011,37 @@
                                     </form:FormElement>
                                     <form:FormElement id="1122ssq">
                                         <form:fields>
-                                            <HBox id="hb12ox3q" height="25px">
-                                                <Text id="i211q" text="Delivery shall be 18 -24 months from the date" />
-                                            </HBox>
+                                            <ScrollContainer vertical="true" id='newscrollco3ntainer83' width="500px" height="100px">
+                                                <Text id="i211q" text="Delivery shall be 18 -24 months from the date of receipt of PO / Drawing Approval / Manufacturing Clearance whichever is later. " width="100%" wrapping="true" />
+                                            </ScrollContainer>
                                         </form:fields>
                                     </form:FormElement>
                                     <form:FormElement id="s22a2hfq">
                                         <form:fields>
-                                            <HBox id="h12box4q" height="25px">
-                                                <Text id="swa222f2q" text=" 10% advance along with PO" />
-                                            </HBox>
+                                             <ScrollContainer vertical="true" id='newscrollconta3iner81' width="500px" height="100px">
+                                                <Text id="swa222f2q" text="10% advance along with PO • 10% against submission of Drawings QAP • 30% against identification of Major Raw materials (Plates) • 30% against pro rate completion of Pre fabrication • 10% against pro rate completion of Hydro testing • 10% against pro rate final completion Handing over " width="100%" wrapping="true" />
+                                           </ScrollContainer>
                                         </form:fields>
                                     </form:FormElement>
                                     <form:FormElement id="sn22aq">
                                         <form:fields>
-                                            <HBox id="h12box5q" height="27px">
-                                                <Text id="svwa2222q" text="LD of 0.5% for per weeks delay to a max. 5% of PO value" />
-                                            </HBox>
+                                             <ScrollContainer vertical="true" id='newscrollcontainer8233' width="500px" height="100px">
+                                                <Text id="svwa2222q" text="LD of 0.5% for per weeks delay to a max. 5% of PO value" width="100%" wrapping="true" />
+                                            </ScrollContainer>
                                         </form:fields>
                                     </form:FormElement>
                                     <form:FormElement id="s2j2a2q">
                                         <form:fields>
-                                            <HBox id="h12box6q" height="27px">
-                                                <Text id="swah2222q" text="The Air storage Vessels are guaranteed for mechanical workmanship" />
-                                            </HBox>
+                                            <ScrollContainer vertical="true" id='newscrollcontainer82' width="500px" height="100px">
+                                                <Text id="swah2222q" text="The Air storage Vessels are guaranteed for mechanical workmanship for a period of 12 months from the date of commissioning or 18 months from the date of dispatch whichever is earlier." width="100%" wrapping="true" />
+                                         </ScrollContainer>
                                         </form:fields>
                                     </form:FormElement>
                                     <form:FormElement id="s22a2wq">
                                         <form:fields>
-                                            <HBox id="hb12ox7q" height="26px">
-                                                <Text id="swa2222wq" text="To be discussed" />
-                                            </HBox>
+                                                     <ScrollContainer vertical="true" id='newscrollcontainer821' width="500px" height="100px">
+                                                <Text id="swa2222wq" text="To be discussed"  width="100%" wrapping="true" />
+                                             </ScrollContainer>
                                         </form:fields>
                                     </form:FormElement>
                                     <form:FormElement id="s2y2aq">
