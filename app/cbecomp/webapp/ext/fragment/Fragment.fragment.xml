@@ -1115,7 +1115,7 @@
                                             <form:FormElement id="s2j2a2">
                                                 <form:fields>
                                                     <ScrollContainer vertical="true" id='news1crollcontainer12' width="500px" height="100px">
-                                                        <Text id="swah2222" text="Warranty for the performance of all the Ordered items/packages under the Contract, against any manufacturing defects, for the period of 18 (Eighteen) months from the date of issue of certificate of completion and final acceptance in writing by TPL and/or ISRO or 36 (Thirty-Six) months from the date of last supply at project site, whichever is earlier. During this period, all the relevant cost towards repair and/or replacement of defective parts/items shall be borne by Supplier. Any part / item repaired and/or replaced shall be under a further warranty for a period of 12 months from the date of acceptance of such repaired and/or replaced part/ item. " width="100%" wrapping="true" />
+                                                        <TextArea id="swah2222" editable="true" width="100%"  value="Warranty for the performance of all the Ordered items/packages under the Contract, against any manufacturing defects, for the period of 18 (Eighteen) months from the date of issue of certificate of completion and final acceptance in writing by TPL and/or ISRO or 36 (Thirty-Six) months from the date of last supply at project site, whichever is earlier. During this period, all the relevant cost towards repair and/or replacement of defective parts/items shall be borne by Supplier. Any part / item repaired and/or replaced shall be under a further warranty for a period of 12 months from the date of acceptance of such repaired and/or replaced part/ item. "/>
                                                     </ScrollContainer>
                                                 </form:fields>
                                             </form:FormElement>
@@ -1211,7 +1211,7 @@
                                             <form:FormElement id="formcomboboxidss2j2a2b">
                                                 <form:fields>
                                                     <ScrollContainer vertical="true" id='formcomboboxidsnews1crollcontainer12b' width="500px" height="100px">
-                                                        <Text id="formcomboboxidsswah2222b" text="Warranty for the performance of all the Ordered items/packages under the Contract, against any manufacturing defects, for the period of 18 (Eighteen) months from the date of issue of certificate of completion and final acceptance in writing by TPL and/or ISRO or 36 (Thirty-Six) months from the date of last supply at project site, whichever is earlier. During this period, all the relevant cost towards repair and/or replacement of defective parts/items shall be borne by Supplier. Any part / item repaired and/or replaced shall be under a further warranty for a period of 12 months from the date of acceptance of such repaired and/or replaced part/ item. " width="100%" wrapping="true" />
+                                                        <TextArea id="formcomboboxz1" editable="true" width="100%" value="Warranty for the performance of all the Ordered items/packages under the Contract, against any manufacturing defects, for the period of 18 (Eighteen) months from the date of issue of certificate of completion and final acceptance in writing by TPL and/or ISRO or 36 (Thirty-Six) months from the date of last supply at project site, whichever is earlier. During this period, all the relevant cost towards repair and/or replacement of defective parts/items shall be borne by Supplier. Any part / item repaired and/or replaced shall be under a further warranty for a period of 12 months from the date of acceptance of such repaired and/or replaced part/ item. "/>
                                                     </ScrollContainer>
                                                 </form:fields>
                                             </form:FormElement>
@@ -1306,7 +1306,7 @@
                                             <form:FormElement id="formcomboboxidss2j2a2c">
                                                 <form:fields>
                                                     <ScrollContainer vertical="true" id='formcomboboxidsnews1crollcontainer12c' width="500px" height="100px">
-                                                        <TextArea id="formcomboboxidsswah2222c" editable="true" value="Warranty for the performance of all the Ordered items/packages under the Contract, against any manufacturing defects, for the period of 18 (Eighteen) months from the date of issue of certificate of completion and final acceptance in writing by TPL and/or ISRO or 36 (Thirty-Six) months from the date of last supply at project site, whichever is earlier. During this period, all the relevant cost towards repair and/or replacement of defective parts/items shall be borne by Supplier. Any part / item repaired and/or replaced shall be under a further warranty for a period of 12 months from the date of acceptance of such repaired and/or replaced part/ item. " width="100%" />
+                                                        <TextArea id="formcomboboxidsswah2222c" editable="true" width="100%" value="Warranty for the performance of all the Ordered items/packages under the Contract, against any manufacturing defects, for the period of 18 (Eighteen) months from the date of issue of certificate of completion and final acceptance in writing by TPL and/or ISRO or 36 (Thirty-Six) months from the date of last supply at project site, whichever is earlier. During this period, all the relevant cost towards repair and/or replacement of defective parts/items shall be borne by Supplier. Any part / item repaired and/or replaced shall be under a further warranty for a period of 12 months from the date of acceptance of such repaired and/or replaced part/ item. "  />
                                                     </ScrollContainer>
                                                 </form:fields>
                                             </form:FormElement>
@@ -1778,7 +1778,7 @@
                                             <form:FormElement id="s2j2a2a">
                                                 <form:fields>
                                                     <ScrollContainer vertical="true" id='newscrollcontainer93' width="500px" height="100px">
-                                                        <Text id="swah2222a" text="Warranty for the performance of all the Ordered items/packages under the Contract, against any manufacturing defects, for the period of 12 (Twelve) months from the date of issue of certificate of completion and final acceptance in writing by TPL and/or ISRO or 15 (Fifteen) months from the date of last supply at project site, whichever is earlier. Warrantee shall not apply to wear  tear parts, rubber seals, gasket etc and shall not apply in case of improper/operations and modifications or repairs incorrectly carried out." width="100%" wrapping="true" />
+                                                        <TextArea id="formcomboboxz23" editable="true" width="100%" value="Warranty for the performance of all the Ordered items/packages under the Contract, against any manufacturing defects, for the period of 12 (Twelve) months from the date of issue of certificate of completion and final acceptance in writing by TPL and/or ISRO or 15 (Fifteen) months from the date of last supply at project site, whichever is earlier. Warrantee shall not apply to wear  tear parts, rubber seals, gasket etc and shall not apply in case of improper/operations and modifications or repairs incorrectly carried out."  />
                                                     </ScrollContainer>
                                                 </form:fields>
                                             </form:FormElement>
@@ -1874,7 +1874,7 @@
                                             <form:FormElement id="s2j2a2ab">
                                                 <form:fields>
                                                     <ScrollContainer vertical="true" id='newscrollcontainer93b' width="500px" height="100px">
-                                                        <Text id="swah2222b" text="Warranty for the performance of all the Ordered items/packages under the Contract, against any manufacturing defects, for the period of 12 (Twelve) months from the date of issue of certificate of completion and final acceptance in writing by TPL and/or ISRO or 15 (Fifteen) months from the date of last supply at project site, whichever is earlier. Warrantee shall not apply to wear tear parts, rubber seals, gasket etc and shall not apply in case of improper/operations and modifications or repairs incorrectly carried out." width="100%" wrapping="true" />
+                                                        <TextArea id="formcomboboxz2213" editable="true" width="100%" value="Warranty for the performance of all the Ordered items/packages under the Contract, against any manufacturing defects, for the period of 12 (Twelve) months from the date of issue of certificate of completion and final acceptance in writing by TPL and/or ISRO or 15 (Fifteen) months from the date of last supply at project site, whichever is earlier. Warrantee shall not apply to wear tear parts, rubber seals, gasket etc and shall not apply in case of improper/operations and modifications or repairs incorrectly carried out." />
                                                     </ScrollContainer>
                                                 </form:fields>
                                             </form:FormElement>
@@ -2344,7 +2344,7 @@
                                             <form:FormElement id="s2j2a2q">
                                                 <form:fields>
                                                     <ScrollContainer vertical="true" id='newscrollcontainer82' width="500px" height="100px">
-                                                        <Text id="swah2222q" text="The Air storage Vessels are guaranteed for mechanical workmanship for a period of 12 months from the date of commissioning or 18 months from the date of dispatch whichever is earlier." width="100%" wrapping="true" />
+                                                        <TextArea id="formcomboboxz123d" editable="true" width="100%" value="The Air storage Vessels are guaranteed for mechanical workmanship for a period of 12 months from the date of commissioning or 18 months from the date of dispatch whichever is earlier."  />
                                                     </ScrollContainer>
                                                 </form:fields>
                                             </form:FormElement>
@@ -2440,7 +2440,7 @@
                                             <form:FormElement id="formcomboboxidss2j2a2qc">
                                                 <form:fields>
                                                     <ScrollContainer vertical="true" id='formcomboboxidsnewscrollcontainer82qc' width="500px" height="100px">
-                                                        <Text id="formcomboboxidsswah2222qc" text="The Air storage Vessels are guaranteed for mechanical workmanship for a period of 12 months from the date of commissioning or 18 months from the date of dispatch whichever is earlier." width="100%" wrapping="true" />
+                                                        <TextArea id="formcomboboxz221i9n3" editable="true" width="100%" value="The Air storage Vessels are guaranteed for mechanical workmanship for a period of 12 months from the date of commissioning or 18 months from the date of dispatch whichever is earlier."  />
                                                     </ScrollContainer>
                                                 </form:fields>
                                             </form:FormElement>
@@ -2913,7 +2913,7 @@
                                             <form:FormElement id="s2j2a2aw">
                                                 <form:fields>
                                                     <ScrollContainer vertical="true" id='newscrollcontainerf34' width="500px" height="100px">
-                                                        <Text id="swah2222aw" text="12 Months from the date of Blowdown or 18 Months from Supply" width="100%" wrapping="true" />
+                                                        <TextArea id="formcomboboxz23d210" editable="true" width="100%" value="12 Months from the date of Blowdown or 18 Months from Supply"  />
                                                     </ScrollContainer>
                                                 </form:fields>
                                             </form:FormElement>
@@ -3009,7 +3009,7 @@
                                             <form:FormElement id="formcomboboxidss2j2a2awc">
                                                 <form:fields>
                                                     <ScrollContainer vertical="true" id='formcomboboxidsnewscrollcontainerf34awc' width="500px" height="100px">
-                                                        <Text id="formcomboboxidsswah2222awc" text="12 Months from the date of Blowdown or 18 Months from Supply" width="100%" wrapping="true" />
+                                                        <TextArea id="formcomboboxz23322sd" editable="true" width="100%" value="12 Months from the date of Blowdown or 18 Months from Supply"  />
                                                     </ScrollContainer>
                                                 </form:fields>
                                             </form:FormElement>
@@ -3489,7 +3489,7 @@
                                             <form:FormElement id="s22a2wawe">
                                                 <form:fields>
                                                     <ScrollContainer vertical="true" id='newscrollcontainer75' width="500px" height="100px">
-                                                        <Text id="swa2222wawe" text=" 5% of CPBG" width="100%" wrapping="true"/>
+                                                        <TextArea id="formcomboboxz232sw1" editable="true" width="100%" value=" 5% of CPBG" />
                                                     </ScrollContainer>
                                                 </form:fields>
                                             </form:FormElement>
@@ -3585,7 +3585,7 @@
                                             <form:FormElement id="formcomboboxidss22a2wawed">
                                                 <form:fields>
                                                     <ScrollContainer vertical="true" id='formcomboboxidsnewscrollcontainer75awed' width="500px" height="100px">
-                                                        <Text id="formcomboboxidsswa2222wawed" text=" 5% of CPBG" width="100%" wrapping="true"/>
+                                                        <TextArea id="formcomboboxzwss223" editable="true" width="100%" value=" 5% of CPBG" />
                                                     </ScrollContainer>
                                                 </form:fields>
                                             </form:FormElement>
