@@ -272,8 +272,7 @@
                                         </HBox>
                                     </HBox>
                                 </form:fields>
-                            </form:FormElement>
-                            <form:FormElement id="21uv22">
+                           
                                 <form:fields>
                                     <HBox id="demox11" justifyContent="SpaceBetween" height="25px">
                                         <HBox id="hbox21" alignItems="Start">
@@ -284,8 +283,7 @@
                                         </HBox>
                                     </HBox>
                                 </form:fields>
-                            </form:FormElement>
-                            <form:FormElement id="23wx24">
+                           
                                 <form:fields>
                                     <HBox id="demox12" justifyContent="SpaceBetween" height="25px">
                                         <HBox id="hbox23" alignItems="Start">
@@ -296,9 +294,7 @@
                                         </HBox>
                                     </HBox>
                                 </form:fields>
-                            </form:FormElement>
-
-                            <form:FormElement id="25yz26">
+                            
                                 <form:fields>
                                     <HBox id="demox13" justifyContent="SpaceBetween" height="25px">
                                         <HBox id="hbox25" alignItems="Start">
@@ -309,8 +305,7 @@
                                         </HBox>
                                     </HBox>
                                 </form:fields>
-                            </form:FormElement>
-                            <form:FormElement id="updatedElementID1">
+                           
                                 <form:fields>
                                     <HBox id="newHBoxID11" justifyContent="SpaceBetween" height="22px">
                                         <HBox id="hBox1ID1" alignItems="Start">
@@ -330,7 +325,8 @@
                                             <Label id="newLabelID1" text="" />
                                         </HBox>
                                         <HBox id="hBox2ID" alignItems="End">
-                                            <Label design="Bold" id="newItemID1" text="Total Basic Price including packing, marking and forwarding" />
+                                            <Label design="Bold" id="newItemID1" text="Total Basic Price including packing,..." tooltip="Total Basic Price including packing, marking and forwarding, Transportation including Taxes" />
+                                            <core:Icon id="icon1" src="sap-icon://navigation-down-arrow" color="darkblue" hoverColor="red" activeColor="darkgreen" width="20px" size="13px" core:require="{ handler: 'cbecomp/ext/fragment/Combobox'}" press="handler.collapseFunD"></core:Icon>
                                         </HBox>
                                     </HBox>
                                 </form:fields>
@@ -378,6 +374,7 @@
                                     </HBox>
                                 </form:fields>
                             </form:FormElement>
+
                             <form:FormElement id="formElement2ID">
                                 <form:fields>
                                     <HBox id="hBox32ID" justifyContent="SpaceBetween" height="30px">
@@ -386,11 +383,12 @@
                                         </HBox>
                                         <HBox id="hBox4ID" alignItems="End">
                                             <Label design="Bold" id="item2ID" text=" PriceBasis" />
+                                            <core:Icon id="icon2" src="sap-icon://navigation-down-arrow" color="darkblue" hoverColor="red" activeColor="darkgreen" width="20px" size="13px" core:require="{ handler: 'cbecomp/ext/fragment/Combobox'}" press="handler.collapseFunG"></core:Icon>
                                         </HBox>
                                     </HBox>
                                 </form:fields>
                             </form:FormElement>
-                            <form:FormElement id="formElement3ID">
+                                <form:FormElement id="formElemweent2ID">
                                 <form:fields>
                                     <HBox id="hBox5ID" justifyContent="SpaceBetween" height="20px">
                                         <HBox id="hBox6ID" alignItems="Start">
@@ -401,8 +399,7 @@
                                         </HBox>
                                     </HBox>
                                 </form:fields>
-                            </form:FormElement>
-                            <form:FormElement id="formElement4ID">
+                            
                                 <form:fields>
                                     <HBox id="hBox8ID" justifyContent="SpaceBetween" height="25px">
                                         <HBox id="hBox9ID" alignItems="Start">
@@ -413,8 +410,7 @@
                                         </HBox>
                                     </HBox>
                                 </form:fields>
-                            </form:FormElement>
-                            <form:FormElement id="formElement5ID">
+                          
                                 <form:fields>
                                     <HBox id="hBox11ID" justifyContent="SpaceBetween" height="25px">
                                         <HBox id="hBox12ID" alignItems="Start">
@@ -425,8 +421,7 @@
                                         </HBox>
                                     </HBox>
                                 </form:fields>
-                            </form:FormElement>
-                            <form:FormElement id="formElement7ID">
+                          
                                 <form:fields>
                                     <HBox id="hBox17ID" justifyContent="SpaceBetween" height="25px">
                                         <HBox id="hBox18ID" alignItems="Start">
@@ -437,8 +432,7 @@
                                         </HBox>
                                     </HBox>
                                 </form:fields>
-                            </form:FormElement>
-                            <form:FormElement id="formElement8ID">
+                           
                                 <form:fields>
                                     <HBox id="hBox20ID" justifyContent="SpaceBetween" height="25px">
                                         <HBox id="hBox21ID" alignItems="Start">
@@ -449,8 +443,7 @@
                                         </HBox>
                                     </HBox>
                                 </form:fields>
-                            </form:FormElement>
-                            <form:FormElement id="formElement9ID">
+                          
                                 <form:fields>
                                     <HBox id="hBox23ID" justifyContent="SpaceBetween" height="25px">
                                         <HBox id="hBox24ID" alignItems="Start">
@@ -461,8 +454,7 @@
                                         </HBox>
                                     </HBox>
                                 </form:fields>
-                            </form:FormElement>
-                            <form:FormElement id="formElement10ID">
+                          
                                 <form:fields>
                                     <HBox id="hBox26ID" justifyContent="SpaceBetween" height="25px">
                                         <HBox id="hBox27ID" alignItems="Start">
@@ -473,8 +465,7 @@
                                         </HBox>
                                     </HBox>
                                 </form:fields>
-                            </form:FormElement>
-                            <form:FormElement id="formElement11ID">
+                      
                                 <form:fields>
                                     <HBox id="hBox29ID" justifyContent="SpaceBetween" height="25px">
                                         <HBox id="hBox30ID" alignItems="Start">
@@ -485,8 +476,7 @@
                                         </HBox>
                                     </HBox>
                                 </form:fields>
-                            </form:FormElement>
-                            <form:FormElement id="formElement12ID">
+                           
                                 <form:fields>
                                     <HBox id="hBox32sdsID" justifyContent="SpaceBetween" height="25px">
                                         <HBox id="hBox33ID" alignItems="Start">
@@ -497,8 +487,7 @@
                                         </HBox>
                                     </HBox>
                                 </form:fields>
-                            </form:FormElement>
-                            <form:FormElement id="formElement13ID">
+                          
                                 <form:fields>
                                     <HBox id="hBox35ID" justifyContent="SpaceBetween" height="25px">
                                         <HBox id="hBox36ID" alignItems="Start">
@@ -509,8 +498,7 @@
                                         </HBox>
                                     </HBox>
                                 </form:fields>
-                            </form:FormElement>
-                            <form:FormElement id="formElement14ID">
+                            
                                 <form:fields>
                                     <HBox id="hBox38ID" justifyContent="SpaceBetween" height="25px">
                                         <HBox id="hBox39ID" alignItems="Start">
@@ -522,14 +510,10 @@
                                     </HBox>
                                 </form:fields>
                             </form:FormElement>
-                            <!-- <form:FormElement id="1sz22">
-                                <form:fields>
-                                    <HBox id="hb1zs13">
 
-                                        <Label id="itzemdwname" text="Nashik" />
-                                    </HBox>
-                                </form:fields>
-                            </form:FormElement> -->
+
+
+
                         </form:formElements>
                     </form:FormContainer>
                 </form:formContainers>
@@ -548,7 +532,7 @@
                                 <form:formElements>
                                     <form:FormElement id="1s2">
                                         <form:fields>
-                                            <HBox id="hb1s1" justifyContent="Center" height="11px">
+                                            <HBox id="hb1s1" justifyContent="Center" width="auto" height="11px">
 
                                                 <Title id="itemdname" text="Artson Enginerring Ltd" wrapping='true'/>
                                             </HBox>
@@ -1115,7 +1099,7 @@
                                             <form:FormElement id="s2j2a2">
                                                 <form:fields>
                                                     <ScrollContainer vertical="true" id='news1crollcontainer12' width="500px" height="100px">
-                                                        <TextArea id="swah2222" editable="true" width="100%"  value="Warranty for the performance of all the Ordered items/packages under the Contract, against any manufacturing defects, for the period of 18 (Eighteen) months from the date of issue of certificate of completion and final acceptance in writing by TPL and/or ISRO or 36 (Thirty-Six) months from the date of last supply at project site, whichever is earlier. During this period, all the relevant cost towards repair and/or replacement of defective parts/items shall be borne by Supplier. Any part / item repaired and/or replaced shall be under a further warranty for a period of 12 months from the date of acceptance of such repaired and/or replaced part/ item. "/>
+                                                        <TextArea id="swah2222" editable="true" width="100%" value="Warranty for the performance of all the Ordered items/packages under the Contract, against any manufacturing defects, for the period of 18 (Eighteen) months from the date of issue of certificate of completion and final acceptance in writing by TPL and/or ISRO or 36 (Thirty-Six) months from the date of last supply at project site, whichever is earlier. During this period, all the relevant cost towards repair and/or replacement of defective parts/items shall be borne by Supplier. Any part / item repaired and/or replaced shall be under a further warranty for a period of 12 months from the date of acceptance of such repaired and/or replaced part/ item. "/>
                                                     </ScrollContainer>
                                                 </form:fields>
                                             </form:FormElement>
@@ -1306,7 +1290,7 @@
                                             <form:FormElement id="formcomboboxidss2j2a2c">
                                                 <form:fields>
                                                     <ScrollContainer vertical="true" id='formcomboboxidsnews1crollcontainer12c' width="500px" height="100px">
-                                                        <TextArea id="formcomboboxidsswah2222c" editable="true" width="100%" value="Warranty for the performance of all the Ordered items/packages under the Contract, against any manufacturing defects, for the period of 18 (Eighteen) months from the date of issue of certificate of completion and final acceptance in writing by TPL and/or ISRO or 36 (Thirty-Six) months from the date of last supply at project site, whichever is earlier. During this period, all the relevant cost towards repair and/or replacement of defective parts/items shall be borne by Supplier. Any part / item repaired and/or replaced shall be under a further warranty for a period of 12 months from the date of acceptance of such repaired and/or replaced part/ item. "  />
+                                                        <TextArea id="formcomboboxidsswah2222c" editable="true" width="100%" value="Warranty for the performance of all the Ordered items/packages under the Contract, against any manufacturing defects, for the period of 18 (Eighteen) months from the date of issue of certificate of completion and final acceptance in writing by TPL and/or ISRO or 36 (Thirty-Six) months from the date of last supply at project site, whichever is earlier. During this period, all the relevant cost towards repair and/or replacement of defective parts/items shall be borne by Supplier. Any part / item repaired and/or replaced shall be under a further warranty for a period of 12 months from the date of acceptance of such repaired and/or replaced part/ item. " />
                                                     </ScrollContainer>
                                                 </form:fields>
                                             </form:FormElement>
@@ -1778,7 +1762,7 @@
                                             <form:FormElement id="s2j2a2a">
                                                 <form:fields>
                                                     <ScrollContainer vertical="true" id='newscrollcontainer93' width="500px" height="100px">
-                                                        <TextArea id="formcomboboxz23" editable="true" width="100%" value="Warranty for the performance of all the Ordered items/packages under the Contract, against any manufacturing defects, for the period of 12 (Twelve) months from the date of issue of certificate of completion and final acceptance in writing by TPL and/or ISRO or 15 (Fifteen) months from the date of last supply at project site, whichever is earlier. Warrantee shall not apply to wear  tear parts, rubber seals, gasket etc and shall not apply in case of improper/operations and modifications or repairs incorrectly carried out."  />
+                                                        <TextArea id="formcomboboxz23" editable="true" width="100%" value="Warranty for the performance of all the Ordered items/packages under the Contract, against any manufacturing defects, for the period of 12 (Twelve) months from the date of issue of certificate of completion and final acceptance in writing by TPL and/or ISRO or 15 (Fifteen) months from the date of last supply at project site, whichever is earlier. Warrantee shall not apply to wear  tear parts, rubber seals, gasket etc and shall not apply in case of improper/operations and modifications or repairs incorrectly carried out." />
                                                     </ScrollContainer>
                                                 </form:fields>
                                             </form:FormElement>
@@ -2344,7 +2328,7 @@
                                             <form:FormElement id="s2j2a2q">
                                                 <form:fields>
                                                     <ScrollContainer vertical="true" id='newscrollcontainer82' width="500px" height="100px">
-                                                        <TextArea id="formcomboboxz123d" editable="true" width="100%" value="The Air storage Vessels are guaranteed for mechanical workmanship for a period of 12 months from the date of commissioning or 18 months from the date of dispatch whichever is earlier."  />
+                                                        <TextArea id="formcomboboxz123d" editable="true" width="100%" value="The Air storage Vessels are guaranteed for mechanical workmanship for a period of 12 months from the date of commissioning or 18 months from the date of dispatch whichever is earlier." />
                                                     </ScrollContainer>
                                                 </form:fields>
                                             </form:FormElement>
@@ -2440,7 +2424,7 @@
                                             <form:FormElement id="formcomboboxidss2j2a2qc">
                                                 <form:fields>
                                                     <ScrollContainer vertical="true" id='formcomboboxidsnewscrollcontainer82qc' width="500px" height="100px">
-                                                        <TextArea id="formcomboboxz221i9n3" editable="true" width="100%" value="The Air storage Vessels are guaranteed for mechanical workmanship for a period of 12 months from the date of commissioning or 18 months from the date of dispatch whichever is earlier."  />
+                                                        <TextArea id="formcomboboxz221i9n3" editable="true" width="100%" value="The Air storage Vessels are guaranteed for mechanical workmanship for a period of 12 months from the date of commissioning or 18 months from the date of dispatch whichever is earlier." />
                                                     </ScrollContainer>
                                                 </form:fields>
                                             </form:FormElement>
@@ -2913,7 +2897,7 @@
                                             <form:FormElement id="s2j2a2aw">
                                                 <form:fields>
                                                     <ScrollContainer vertical="true" id='newscrollcontainerf34' width="500px" height="100px">
-                                                        <TextArea id="formcomboboxz23d210" editable="true" width="100%" value="12 Months from the date of Blowdown or 18 Months from Supply"  />
+                                                        <TextArea id="formcomboboxz23d210" editable="true" width="100%" value="12 Months from the date of Blowdown or 18 Months from Supply" />
                                                     </ScrollContainer>
                                                 </form:fields>
                                             </form:FormElement>
@@ -3009,7 +2993,7 @@
                                             <form:FormElement id="formcomboboxidss2j2a2awc">
                                                 <form:fields>
                                                     <ScrollContainer vertical="true" id='formcomboboxidsnewscrollcontainerf34awc' width="500px" height="100px">
-                                                        <TextArea id="formcomboboxz23322sd" editable="true" width="100%" value="12 Months from the date of Blowdown or 18 Months from Supply"  />
+                                                        <TextArea id="formcomboboxz23322sd" editable="true" width="100%" value="12 Months from the date of Blowdown or 18 Months from Supply" />
                                                     </ScrollContainer>
                                                 </form:fields>
                                             </form:FormElement>

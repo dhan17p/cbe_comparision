@@ -282,6 +282,11 @@ sap.ui.define(['sap/ui/core/mvc/ControllerExtension'], function (ControllerExten
 						}
 						
 					})
+					var oDgroup = oHbox.mAggregations.items[0].mAggregations.items[2].mAggregations.formContainers[0].mAggregations.formElements[8];
+					var oGroup = oHbox.mAggregations.items[0].mAggregations.items[2].mAggregations.formContainers[0].mAggregations.formElements[14];
+
+					oDgroup.setVisible(false);
+					oGroup.setVisible(false);
 			}
 		}
 		}
