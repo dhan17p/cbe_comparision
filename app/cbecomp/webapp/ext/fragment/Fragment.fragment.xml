@@ -168,7 +168,7 @@
                                             <Label id="label1" text="" />
                                         </HBox>
                                         <HBox id="hbox2" alignItems="End">
-                                            <Label design="Bold" id="ite1m1" text="Spares for 2 Years operation" />
+                                            <Label id="ite1m1" text="Spares for 2 Years operation" />
                                         </HBox>
                                     </HBox>
                                 </form:fields>
@@ -198,7 +198,7 @@
                                             <Label id="label3" text="" />
                                         </HBox>
                                         <HBox id="hbox6" alignItems="End">
-                                            <Label design="Bold" id="item3" text="Packing, Marking, Forwarding and Freight" />
+                                            <Label id="item3" text="Packing, Marking, Forwarding and Freight" />
                                         </HBox>
                                     </HBox>
                                 </form:fields>
@@ -210,7 +210,7 @@
                                             <Label id="label4" text="" />
                                         </HBox>
                                         <HBox id="hbox8" alignItems="End">
-                                            <Label design="Bold" id="itesasm4" text="Inspection / Testing Charges" />
+                                            <Label id="itesasm4" text="Inspection / Testing Charges" />
                                         </HBox>
                                     </HBox>
                                 </form:fields>
@@ -225,7 +225,7 @@
                                             <Label id="label5" text="" />
                                         </HBox>
                                         <HBox id="hbox10" alignItems="End">
-                                            <Label design="Bold" id="item5" text="Documentation Charges" />
+                                            <Label id="item5" text="Documentation Charges" />
                                         </HBox>
                                     </HBox>
                                 </form:fields>
@@ -240,7 +240,8 @@
                                             <Label id="label6" text="" />
                                         </HBox>
                                         <HBox id="hbox12" alignItems="End">
-                                            <Label design="Bold" id="item6" text="Total Basic Price including packing, marking and forwarding" />
+                                            <Label design="Bold" id="item6" text="Total Basic Price including packing, marking..." tooltip="Total Basic Price including packing, marking and forwarding" />
+                                            <core:Icon id="icon3" src="sap-icon://navigation-down-arrow" color="darkblue" hoverColor="red" activeColor="darkgreen" width="20px" size="13px" core:require="{ handler: 'cbecomp/ext/fragment/Combobox'}" press="handler.collapseFunB"></core:Icon>
                                         </HBox>
                                     </HBox>
                                 </form:fields>
@@ -268,51 +269,51 @@
                                             <Label id="label8" text="" />
                                         </HBox>
                                         <HBox id="hbox16" alignItems="End">
-                                            <Label design="Bold" id="item8" text="Custom Duty and Cess" />
+                                            <Label id="item8" text="Custom Duty and Cess" />
                                         </HBox>
                                     </HBox>
                                 </form:fields>
-                           
+
                                 <form:fields>
                                     <HBox id="demox11" justifyContent="SpaceBetween" height="25px">
                                         <HBox id="hbox21" alignItems="Start">
                                             <Label id="label11" text="" />
                                         </HBox>
                                         <HBox id="hbox22" alignItems="End">
-                                            <Label design="Bold" id="item11" text="SGST" />
+                                            <Label id="item11" text="SGST" />
                                         </HBox>
                                     </HBox>
                                 </form:fields>
-                           
+
                                 <form:fields>
                                     <HBox id="demox12" justifyContent="SpaceBetween" height="25px">
                                         <HBox id="hbox23" alignItems="Start">
                                             <Label id="label12" text="" />
                                         </HBox>
                                         <HBox id="hbox24" alignItems="End">
-                                            <Label design="Bold" id="item12" text="IGST" />
+                                            <Label id="item12" text="IGST" />
                                         </HBox>
                                     </HBox>
                                 </form:fields>
-                            
+
                                 <form:fields>
                                     <HBox id="demox13" justifyContent="SpaceBetween" height="25px">
                                         <HBox id="hbox25" alignItems="Start">
                                             <Label id="label13" text="" />
                                         </HBox>
                                         <HBox id="hbox26" alignItems="End">
-                                            <Label design="Bold" id="item13" text="UGST" />
+                                            <Label id="item13" text="UGST" />
                                         </HBox>
                                     </HBox>
                                 </form:fields>
-                           
+
                                 <form:fields>
                                     <HBox id="newHBoxID11" justifyContent="SpaceBetween" height="22px">
                                         <HBox id="hBox1ID1" alignItems="Start">
                                             <Label id="newLabelID11" text="" />
                                         </HBox>
                                         <HBox id="hBox2ID1" alignItems="End">
-                                            <Label design="Bold" id="newItemID11" text="Shipment charges from EXW to ISRO Mahendragiri " />
+                                            <Label id="newItemID11" text="Shipment charges from EXW to ISRO Mahendragiri " />
                                         </HBox>
                                     </HBox>
                                 </form:fields>
@@ -377,7 +378,7 @@
 
                             <form:FormElement id="formElement2ID">
                                 <form:fields>
-                                    <HBox id="hBox32ID" justifyContent="SpaceBetween" height="30px">
+                                    <HBox id="hBox32ID" justifyContent="SpaceBetween" height="72px">
                                         <HBox id="hBox3ID" alignItems="Start">
                                             <Label id="label2ID" text="" />
                                         </HBox>
@@ -388,124 +389,124 @@
                                     </HBox>
                                 </form:fields>
                             </form:FormElement>
-                                <form:FormElement id="formElemweent2ID">
+                            <form:FormElement id="formElemweent2ID">
                                 <form:fields>
-                                    <HBox id="hBox5ID" justifyContent="SpaceBetween" height="20px">
+                                    <HBox id="hBox5ID" justifyContent="SpaceBetween" height="15px">
                                         <HBox id="hBox6ID" alignItems="Start">
                                             <Label id="label3ID" text="" />
                                         </HBox>
                                         <HBox id="hBox7ID" alignItems="End">
-                                            <Label design="Bold" id="item3ID" text="Point of Delivery" />
+                                            <Label id="item3ID" text="Point of Delivery" />
                                         </HBox>
                                     </HBox>
                                 </form:fields>
-                            
+
                                 <form:fields>
-                                    <HBox id="hBox8ID" justifyContent="SpaceBetween" height="25px">
+                                    <HBox id="hBox8ID" justifyContent="SpaceBetween" height="18px">
                                         <HBox id="hBox9ID" alignItems="Start">
                                             <Label id="label4ID" text="" />
                                         </HBox>
                                         <HBox id="hBox10ID" alignItems="End">
-                                            <Label design="Bold" id="item4ID" text="Delivery Period" />
+                                            <Label id="item4ID" text="Delivery Period" />
                                         </HBox>
                                     </HBox>
                                 </form:fields>
-                          
+
                                 <form:fields>
-                                    <HBox id="hBox11ID" justifyContent="SpaceBetween" height="25px">
+                                    <HBox id="hBox11ID" justifyContent="SpaceBetween" height="104px">
                                         <HBox id="hBox12ID" alignItems="Start">
                                             <Label id="label5ID" text="" />
                                         </HBox>
                                         <HBox id="hBox13ID" alignItems="End">
-                                            <Label design="Bold" id="item5ID" text="Payment Terms" />
+                                            <Label id="item5ID" text="Payment Terms" />
                                         </HBox>
                                     </HBox>
                                 </form:fields>
-                          
+
                                 <form:fields>
-                                    <HBox id="hBox17ID" justifyContent="SpaceBetween" height="25px">
+                                    <HBox id="hBox17ID" justifyContent="SpaceBetween" height="100px">
                                         <HBox id="hBox18ID" alignItems="Start">
                                             <Label id="label7ID" text="" />
                                         </HBox>
                                         <HBox id="hBox19ID" alignItems="End">
-                                            <Label design="Bold" id="item7ID" text="Liquidated Damages" />
+                                            <Label id="item7ID" text="Liquidated Damages" />
                                         </HBox>
                                     </HBox>
                                 </form:fields>
-                           
+
                                 <form:fields>
-                                    <HBox id="hBox20ID" justifyContent="SpaceBetween" height="25px">
+                                    <HBox id="hBox20ID" justifyContent="SpaceBetween" height="108px">
                                         <HBox id="hBox21ID" alignItems="Start">
                                             <Label id="label8ID" text="" />
                                         </HBox>
                                         <HBox id="hBox22ID" alignItems="End">
-                                            <Label design="Bold" id="item8ID" text="Warranty / Defect Liability Period" />
+                                            <Label id="item8ID" text="Warranty / Defect Liability Period" />
                                         </HBox>
                                     </HBox>
                                 </form:fields>
-                          
+
                                 <form:fields>
-                                    <HBox id="hBox23ID" justifyContent="SpaceBetween" height="25px">
+                                    <HBox id="hBox23ID" justifyContent="SpaceBetween" height="93px">
                                         <HBox id="hBox24ID" alignItems="Start">
                                             <Label id="label9ID" text="" />
                                         </HBox>
                                         <HBox id="hBox25ID" alignItems="End">
-                                            <Label design="Bold" id="item9ID" text="CPBG" />
+                                            <Label id="item9ID" text="CPBG" />
                                         </HBox>
                                     </HBox>
                                 </form:fields>
-                          
+
                                 <form:fields>
-                                    <HBox id="hBox26ID" justifyContent="SpaceBetween" height="25px">
+                                    <HBox id="hBox26ID" justifyContent="SpaceBetween" height="100px">
                                         <HBox id="hBox27ID" alignItems="Start">
                                             <Label id="label10ID" text="" />
                                         </HBox>
                                         <HBox id="hBox28ID" alignItems="End">
-                                            <Label design="Bold" id="item10ID" text="Contact Person" />
+                                            <Label id="item10ID" text="Contact Person" />
                                         </HBox>
                                     </HBox>
                                 </form:fields>
-                      
+
                                 <form:fields>
                                     <HBox id="hBox29ID" justifyContent="SpaceBetween" height="25px">
                                         <HBox id="hBox30ID" alignItems="Start">
                                             <Label id="label11ID" text="" />
                                         </HBox>
                                         <HBox id="hBox31ID" alignItems="End">
-                                            <Label design="Bold" id="item11ID" text="Contact No." />
+                                            <Label id="item11ID" text="Contact No." />
                                         </HBox>
                                     </HBox>
                                 </form:fields>
-                           
+
                                 <form:fields>
                                     <HBox id="hBox32sdsID" justifyContent="SpaceBetween" height="25px">
                                         <HBox id="hBox33ID" alignItems="Start">
                                             <Label id="label12ID" text="" />
                                         </HBox>
                                         <HBox id="hBox34ID" alignItems="End">
-                                            <Label design="Bold" id="item12ID" text=" Order can be given to……..." />
+                                            <Label id="item12ID" text=" Order can be given to……..." />
                                         </HBox>
                                     </HBox>
                                 </form:fields>
-                          
+
                                 <form:fields>
                                     <HBox id="hBox35ID" justifyContent="SpaceBetween" height="25px">
                                         <HBox id="hBox36ID" alignItems="Start">
                                             <Label id="label13ID" text="" />
                                         </HBox>
                                         <HBox id="hBox37ID" alignItems="End">
-                                            <Label design="Bold" id="item13ID" text=" Techncially Approved " />
+                                            <Label id="item13ID" text=" Techncially Approved " />
                                         </HBox>
                                     </HBox>
                                 </form:fields>
-                            
+
                                 <form:fields>
                                     <HBox id="hBox38ID" justifyContent="SpaceBetween" height="25px">
                                         <HBox id="hBox39ID" alignItems="Start">
                                             <Label id="label14ID" text="" />
                                         </HBox>
                                         <HBox id="hBox40ID" alignItems="End">
-                                            <Label design="Bold" id="item14ID" text="Approved Vendor" />
+                                            <Label id="item14ID" text="Approved Vendor" />
                                         </HBox>
                                     </HBox>
                                 </form:fields>
@@ -554,10 +555,10 @@
                     <!-- ... (your existing form structure) ... -->
 
                     <!-- HBox for Tables -->
-                    <HBox id="tablesHBox">
+                    <HBox id="tablesHBox" class="customVBox">
                         <!-- Original Offer Table -->
 
-                        <VBox id= "v7677">
+                        <VBox id= "v7677" class="customVBox">
 
                             <HBox id="aelnsk" height="22px">
                                 <Text id="qnt" text="AEL/NSK/TPL/AV/PB/16054/2018-19, Rev-1"></Text>
@@ -572,7 +573,7 @@
 
 
                             <Label design="Bold" id="offers" text="Original Offer" />
-                            <Table id="myTable12121" growing="true" growingThreshold="20" width="100%" fixedLayout="false">
+                            <Table id="myTable12121" class="tableBorder" growing="true" growingThreshold="20" width="100%" fixedLayout="false">
                                 <!--  Define columns and bindings for the table  -->
                                 <columns>
                                     <Column id="col221112">
@@ -610,7 +611,7 @@
                                             <Text id="txt34" text="50000" />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item455">
+                                    <ColumnListItem id="item455" class="custCellBolder">
                                         <cells>
                                             <Text id="t235" text=" " />
                                             <Text id="ta35" text=" " />
@@ -638,7 +639,7 @@
                                             <Text id="txt8" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item49">
+                                    <ColumnListItem id="item49" class="custCellBolder">
                                         <cells>
                                             <Text id="t239" text=" " />
                                             <Text id="ta39" text=" " />
@@ -688,14 +689,14 @@
                                             <Text id="txt16" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item417">
+                                    <ColumnListItem id="item417" class="custCellBold">
                                         <cells>
                                             <Text id="t1317" text=" " />
                                             <Text id="ta317" text=" " />
                                             <Text id="txt17" text="27,68,51,600                                              " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item418">
+                                    <ColumnListItem id="item418" class="custCellBold">
                                         <cells>
                                             <Text id="t1318" text=" " />
                                             <Text id="ta318" text=" " />
@@ -719,7 +720,7 @@
                                 </items>
                             </Table>
                         </VBox>
-                        <VBox id= "v3356">
+                        <VBox id= "v3356" class="customVBox">
                             <HBox id="hhbbbox_qnt2" height="22px">
                                 <Text id="qnt2" text="Reverse Auction"></Text>
                             </HBox>
@@ -735,7 +736,7 @@
 
 
                             <Label design="Bold" id="tiitle221" text="Reverse Auction Offer" />
-                            <Table id="myTable121" growing="true" growingThreshold="20" width="100%" fixedLayout="false">
+                            <Table id="myTable121" class="tableBorder" growing="true" growingThreshold="20" width="100%" fixedLayout="false">
                                 <!--  Define columns and bindings for the table  -->
                                 <columns>
                                     <Column id="col2211">
@@ -772,7 +773,7 @@
                                             <Text id="texttxt34" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item155">
+                                    <ColumnListItem id="item155" class="custCellBolder">
                                         <cells>
                                             <Text id="text235" text=" " />
                                             <Text id="texta35" text=" " />
@@ -800,7 +801,7 @@
                                             <Text id="texttxt8" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item149">
+                                    <ColumnListItem id="item149" class="custCellBolder">
                                         <cells>
                                             <Text id="text239" text=" " />
                                             <Text id="texta39" text=" " />
@@ -850,25 +851,26 @@
                                             <Text id="texttxt16" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item1417">
-                                        <cells>
-                                            <Text id="text1317" text=" " />
-                                            <Text id="texta317" text=" " />
-                                            <Text id="texttxt17" text="59000" />
-                                        </cells>
-                                    </ColumnListItem>
-                                    <ColumnListItem id="item1418">
+
+                                    <ColumnListItem id="item1418" class="custCellBold">
                                         <cells>
                                             <Text id="text1318" text=" " />
                                             <Text id="texta318" text=" " />
                                             <Text id="texttxt18" text=" 24,89,79,995                                             " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item1419">
+                                    <ColumnListItem id="item1419" class="custCellBold">
                                         <cells>
                                             <Text id="text1319" text=" " />
                                             <Text id="texta319" text=" " />
                                             <Text id="texttxt19" text=" 21,09,99,996                                             " />
+                                        </cells>
+                                    </ColumnListItem>
+                                    <ColumnListItem id="item1417">
+                                        <cells>
+                                            <Text id="text1317" text=" " />
+                                            <Text id="texta317" text=" " />
+                                            <Text id="texttxt17" text="" />
                                         </cells>
                                     </ColumnListItem>
                                     <ColumnListItem id="item1420">
@@ -882,7 +884,7 @@
 
                             </Table>
                         </VBox>
-                        <VBox id= "v3356333">
+                        <VBox id= "v3356333" class="customVBox">
                             <HBox id="hhbbbox_qnt12" height="22px">
                                 <Text id="qnt12" text="E-Mail offer dated 30-04-2019"></Text>
                             </HBox>
@@ -935,7 +937,7 @@
                                             <Text id="texttxt341" text="" />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item4551">
+                                    <ColumnListItem id="item4551" class="custCellBolder">
                                         <cells>
                                             <Text id="text2351" text=" " />
                                             <Text id="texta351" text=" " />
@@ -963,7 +965,7 @@
                                             <Text id="texttxt81" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item491">
+                                    <ColumnListItem id="item491" class="custCellBolder">
                                         <cells>
                                             <Text id="text2391" text=" " />
                                             <Text id="texta391" text=" " />
@@ -1013,14 +1015,14 @@
                                             <Text id="texttxt161" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item4171">
+                                    <ColumnListItem id="item4171" class="custCellBold">
                                         <cells>
                                             <Text id="text13171" text=" " />
                                             <Text id="texta3171" text=" " />
                                             <Text id="texttxt171" text=" 20,32,50,000                                            " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item4181">
+                                    <ColumnListItem id="item4181" class="custCellBold">
                                         <cells>
                                             <Text id="text13181" text=" " />
                                             <Text id="texta3181" text=" " />
@@ -1049,7 +1051,7 @@
                     </HBox>
                     <VBox id="sectioncomboboxid1">
                         <ComboBox id="section1combobox1" placeholder="Final Negotiated Price after Reverse Auction" core:require="{ handler: 'cbecomp/ext/fragment/Combobox'}" change="handler.onChangefun">
-                            <core:Item id="11comboxitem1" text="Original Offer " />
+                            <core:Item id="11comboxitem1" text="Original Offer" />
                             <core:Item id="c11omboxitem2" text="Reverse Auction Offer" />
                             <core:Item id="c11omboxi2323tem2" text="Final Negotiated Price after Reverse Auction" />
                         </ComboBox>
@@ -1064,7 +1066,7 @@
                                             <form:FormElement id="112s22">
                                                 <form:fields>
                                                     <HBox id="hbo212x1" height="17px">
-                                                        <Text id="i2temdname2" text="Ex-Works Nashik"/>
+                                                        <Text id="i2temdname2" text="Ex-Works NashikO"/>
                                                     </HBox>
                                                 </form:fields>
                                             </form:FormElement>
@@ -1160,7 +1162,7 @@
                                             <form:FormElement id="formcomboboxids112s22b">
                                                 <form:fields>
                                                     <HBox id="formcomboboxidshbo212x1b" height="17px">
-                                                        <Text id="formcomboboxidsi2temdname2b" text="Ex-Works Nashik"/>
+                                                        <Text id="formcomboboxidsi2temdname2b" text="Ex-Works NashikR"/>
                                                     </HBox>
                                                 </form:fields>
                                             </form:FormElement>
@@ -1255,7 +1257,7 @@
                                             <form:FormElement id="formcomboboxids112s22c">
                                                 <form:fields>
                                                     <HBox id="formcomboboxidshbo212x1c" height="17px">
-                                                        <Text id="formcomboboxidsi2temdname2c" text="Ex-Works Nashik"/>
+                                                        <Text id="formcomboboxidsi2temdname2c" text="Ex-Works NashikF"/>
                                                     </HBox>
                                                 </form:fields>
                                             </form:FormElement>
@@ -1382,7 +1384,7 @@
                     <HBox id="tablesHBox1">
                         <!-- Original Offer Table -->
 
-                        <VBox id= "v76776">
+                        <VBox id= "v76776" class="customVBox">
 
                             <HBox id="hhbbbox_qnt6" height="22px">
                                 <Text id="qnt6" text="WIL/AERO/TPL/19"></Text>
@@ -1399,7 +1401,7 @@
 
 
                             <Label design="Bold" id="offers6" text="Original and Final Offer " />
-                            <Table id="myTable121216" growing="true" growingThreshold="20" width="100%" fixedLayout="false">
+                            <Table id="myTable121216" class="tableBorder" growing="true" growingThreshold="20" width="100%" fixedLayout="false">
                                 <!--  Define columns and bindings for the table  -->
                                 <columns>
                                     <Column id="col2211126">
@@ -1437,7 +1439,7 @@
                                             <Text id="txt346" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item4556">
+                                    <ColumnListItem id="item4556" class="custCellBolder">
                                         <cells>
                                             <Text id="t2356" text=" " />
                                             <Text id="ta356" text=" " />
@@ -1465,7 +1467,7 @@
                                             <Text id="txt86" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item496">
+                                    <ColumnListItem id="item496" class="custCellBolder">
                                         <cells>
                                             <Text id="t2396" text=" " />
                                             <Text id="ta396" text=" " />
@@ -1515,14 +1517,14 @@
                                             <Text id="txt166" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item4176">
+                                    <ColumnListItem id="item4176" class="custCellBold">
                                         <cells>
                                             <Text id="t13176" text=" " />
                                             <Text id="ta3176" text=" " />
                                             <Text id="txt176" text=" 287023200 " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item4186">
+                                    <ColumnListItem id="item4186" class="custCellBold">
                                         <cells>
                                             <Text id="t13186" text=" " />
                                             <Text id="ta3186" text=" " />
@@ -1546,7 +1548,7 @@
                                 </items>
                             </Table>
                         </VBox>
-                        <VBox id= "v33566">
+                        <VBox id= "v33566" class="customVBox">
                             <HBox id="hhbbbox_qnt26" height="22px">
                                 <Text id="qnt26" text="Reverse Auction"></Text>
                             </HBox>
@@ -1599,7 +1601,7 @@
                                             <Text id="texttxt34a" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item155a">
+                                    <ColumnListItem id="item155a" class="custCellBolder">
                                         <cells>
                                             <Text id="text235a" text=" " />
                                             <Text id="texta35a" text=" " />
@@ -1627,7 +1629,7 @@
                                             <Text id="texttxt8a" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item149a">
+                                    <ColumnListItem id="item149a" class="custCellBolder">
                                         <cells>
                                             <Text id="text239a" text=" " />
                                             <Text id="texta39a" text=" " />
@@ -1677,14 +1679,14 @@
                                             <Text id="texttxt16a" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item1417a">
+                                    <ColumnListItem id="item1417a" class="custCellBold">
                                         <cells>
                                             <Text id="text1317a" text=" " />
                                             <Text id="texta317a" text=" " />
                                             <Text id="texttxt1a7" text=" 27,61,20,000 " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item1418a">
+                                    <ColumnListItem id="item1418a" class="custCellBold">
                                         <cells>
                                             <Text id="text1318a" text=" " />
                                             <Text id="texta318a" text=" " />
@@ -1712,8 +1714,8 @@
 
                     </HBox>
                     <VBox id="hboxsection1">
-                        <ComboBox id="section1combobox" placeholder="Final negotiated Offer" core:require="{ handler: 'cbecomp/ext/fragment/Combobox'}" change="handler.onChangefun">
-                            <core:Item id="comboxitem1" text="Original and Final Offer " />
+                        <ComboBox id="section1combobox" placeholder="Final negotiated Offer" core:require="{ handler: 'cbecomp/ext/fragment/Combobox'}" change="handler.onChangefun1">
+                            <core:Item id="comboxitem1" text="Original and Final Offer" />
                             <core:Item id="comboxitem2" text="Final negotiated Offer" />
                         </ComboBox>
                         <HBox id="3formsection">
@@ -1948,7 +1950,7 @@
                     <HBox id="tablesHBoxz">
                         <!-- Original Offer Table -->
 
-                        <VBox id= "v7677z">
+                        <VBox id= "v7677z" class="customVBox">
 
                             <HBox id="hhbbbox_qntz" height="22px">
                                 <Text id="qntz" text="ENQ-PE-19-013 REV 01 dt 02.04.19"></Text>
@@ -1965,7 +1967,7 @@
 
 
                             <Label design="Bold" id="offersz" text="Original Offer" />
-                            <Table id="myTable12121z" growing="true" growingThreshold="20" width="100%" fixedLayout="false">
+                            <Table id="myTable12121z" class="tableBorder" growing="true" growingThreshold="20" width="100%" fixedLayout="false">
                                 <!--  Define columns and bindings for the table  -->
                                 <columns>
                                     <Column id="col221112z">
@@ -2003,7 +2005,7 @@
                                             <Text id="txt34z" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item45z5">
+                                    <ColumnListItem id="item45z5" class="custCellBolder">
                                         <cells>
                                             <Text id="t235z" text=" " />
                                             <Text id="ta35z" text=" " />
@@ -2031,7 +2033,7 @@
                                             <Text id="txt8z" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item49z">
+                                    <ColumnListItem id="item49z" class="custCellBolder">
                                         <cells>
                                             <Text id="t239z" text=" " />
                                             <Text id="ta39z" text=" " />
@@ -2081,14 +2083,14 @@
                                             <Text id="txt16z" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item417z">
+                                    <ColumnListItem id="item417z" class="custCellBold">
                                         <cells>
                                             <Text id="t1317z" text=" " />
                                             <Text id="ta317z" text=" " />
                                             <Text id="txt17z" text=" 49,73,70,000 " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item418z">
+                                    <ColumnListItem id="item418z" class="custCellBold">
                                         <cells>
                                             <Text id="t1318z" text=" " />
                                             <Text id="ta318z" text=" " />
@@ -2112,7 +2114,7 @@
                                 </items>
                             </Table>
                         </VBox>
-                        <VBox id= "v3356z">
+                        <VBox id= "v3356z" class="customVBox">
                             <HBox id="hhbbbox_qnt2z" height="22px">
                                 <Text id="qnt2z" text="Reverse Auction"></Text>
                             </HBox>
@@ -2165,7 +2167,7 @@
                                             <Text id="texttxt34z" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item155z">
+                                    <ColumnListItem id="item155z" class="custCellBolder">
                                         <cells>
                                             <Text id="text235z" text=" " />
                                             <Text id="texta35z" text=" " />
@@ -2193,7 +2195,7 @@
                                             <Text id="texttxt8z" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item149z">
+                                    <ColumnListItem id="item149z" class="custCellBolder">
                                         <cells>
                                             <Text id="text239z" text=" " />
                                             <Text id="texta39z" text=" " />
@@ -2243,14 +2245,14 @@
                                             <Text id="texttxt16z" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item1417z">
+                                    <ColumnListItem id="item1417z" class="custCellBold">
                                         <cells>
                                             <Text id="text1317z" text=" " />
                                             <Text id="texta317z" text=" " />
                                             <Text id="texttxt17z" text=" 42,48,00,000 " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item1418z">
+                                    <ColumnListItem id="item1418z" class="custCellBold">
                                         <cells>
                                             <Text id="text1318zz" text=" " />
                                             <Text id="texta318z" text=" " />
@@ -2278,8 +2280,8 @@
 
                     </HBox>
                     <VBox id="sectioncomboboxid2">
-                        <ComboBox id="section1combobox2" placeholder="Final Offer" core:require="{ handler: 'cbecomp/ext/fragment/Combobox'}" change="handler.onChangefun">
-                            <core:Item id="comboxitem19" text="Original Offer " />
+                        <ComboBox id="section1combobox2" placeholder="Final Offer" core:require="{ handler: 'cbecomp/ext/fragment/Combobox'}" change="handler.onChangefun2">
+                            <core:Item id="comboxitem19" text="Original Offer" />
                             <core:Item id="comboxitem20" text="Final Offer" />
                         </ComboBox>
                         <HBox id='newidid2'>
@@ -2516,7 +2518,7 @@
                     <HBox id="tablesHBox1w">
                         <!-- Original Offer Table -->
 
-                        <VBox id= "v76776w">
+                        <VBox id= "v76776w" class="customVBox">
 
                             <HBox id="hhbbbox_qnt6w" height="22px">
                                 <Text id="qnt6w" text="MKTG/18505/VSSC/2018"></Text>
@@ -2534,7 +2536,7 @@
 
 
                             <Label design="Bold" id="offers6w" text="Original Offer" />
-                            <Table id="myTable121216w" growing="true" growingThreshold="20" width="100%" fixedLayout="false">
+                            <Table id="myTable121216w" class="tableBorder" growing="true" growingThreshold="20" width="100%" fixedLayout="false">
                                 <!--  Define columns and bindings for the table  -->
                                 <columns>
                                     <Column id="col2211126w">
@@ -2572,7 +2574,7 @@
                                             <Text id="txt346w" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item4556w">
+                                    <ColumnListItem id="item4556w" class="custCellBolder">
                                         <cells>
                                             <Text id="t2356w" text=" " />
                                             <Text id="ta356w" text=" " />
@@ -2600,7 +2602,7 @@
                                             <Text id="txt86w" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item496w">
+                                    <ColumnListItem id="item496w" class="custCellBolder">
                                         <cells>
                                             <Text id="t2396w" text=" " />
                                             <Text id="ta396w" text=" " />
@@ -2650,14 +2652,14 @@
                                             <Text id="txt166w" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item4176w">
+                                    <ColumnListItem id="item4176w" class="custCellBold">
                                         <cells>
                                             <Text id="t13176w" text=" " />
                                             <Text id="ta3176w" text=" " />
                                             <Text id="txt176w" text=" 44,81,64,000 " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item4186w">
+                                    <ColumnListItem id="item4186w" class="custCellBold">
                                         <cells>
                                             <Text id="t13186w" text=" " />
                                             <Text id="ta3186w" text=" " />
@@ -2681,7 +2683,7 @@
                                 </items>
                             </Table>
                         </VBox>
-                        <VBox id= "v33566w">
+                        <VBox id= "v33566w" class="customVBox">
                             <HBox id="hhbbbox_qnt26w" height="22px">
                                 <Text id="qnt26w" text="Reverse Auction"></Text>
                             </HBox>
@@ -2734,7 +2736,7 @@
                                             <Text id="texttxt34aw" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item155aw">
+                                    <ColumnListItem id="item155aw" class="custCellBolder">
                                         <cells>
                                             <Text id="text235wa" text=" " />
                                             <Text id="texta35aw" text=" " />
@@ -2762,7 +2764,7 @@
                                             <Text id="texttxt8aw" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item149aw">
+                                    <ColumnListItem id="item149aw" class="custCellBolder">
                                         <cells>
                                             <Text id="text239aw" text=" " />
                                             <Text id="texta39wa" text=" " />
@@ -2812,14 +2814,14 @@
                                             <Text id="texttxt16wa" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item1417aw">
+                                    <ColumnListItem id="item1417aw" class="custCellBold">
                                         <cells>
                                             <Text id="text1317aw" text=" " />
                                             <Text id="texta317aw" text=" " />
                                             <Text id="texttxt1a7w" text="25,70,04,000" />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item1418aw">
+                                    <ColumnListItem id="item1418aw" class="custCellBold">
                                         <cells>
                                             <Text id="text1318aw" text=" " />
                                             <Text id="texta318aw" text=" " />
@@ -2847,8 +2849,8 @@
 
                     </HBox>
                     <VBox id="sectioncomboboxid3">
-                        <ComboBox id="section1combobox3" placeholder="Final Offer" core:require="{ handler: 'cbecomp/ext/fragment/Combobox'}" change="handler.onChangefun">
-                            <core:Item id="comboxite1124423m1" text="Original Offer " />
+                        <ComboBox id="section1combobox3" placeholder="Final Offer" core:require="{ handler: 'cbecomp/ext/fragment/Combobox'}" change="handler.onChangefun2">
+                            <core:Item id="comboxite1124423m1" text="Original Offer" />
                             <core:Item id="comboxitesdsm2" text="Final Offer" />
                         </ComboBox>
                         <HBox id='newidid3'>
@@ -3085,7 +3087,7 @@
                     <HBox id="tablesHBox1we">
                         <!-- Original Offer Table -->
 
-                        <VBox id= "v76776we">
+                        <VBox id= "v76776we" class="customVBox">
 
                             <HBox id="hhbbbox_qnt6we" height="22px">
                                 <Text id="qnt6we" text="E-RFQ and E-Offer"></Text>
@@ -3103,7 +3105,7 @@
 
 
                             <Label design="Bold" id="offers6we" text="Original Offer" />
-                            <Table id="myTable121216we" growing="true" growingThreshold="20" width="100%" fixedLayout="false">
+                            <Table id="myTable121216we" class="tableBorder" growing="true" growingThreshold="20" width="100%" fixedLayout="false">
                                 <!--  Define columns and bindings for the table  -->
                                 <columns>
                                     <Column id="col2211126we">
@@ -3141,7 +3143,7 @@
                                             <Text id="txt346we" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item4556we">
+                                    <ColumnListItem id="item4556we" class="custCellBolder">
                                         <cells>
                                             <Text id="t2356we" text=" " />
                                             <Text id="ta356we" text=" " />
@@ -3169,7 +3171,7 @@
                                             <Text id="txt86we" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item496we">
+                                    <ColumnListItem id="item496we" class="custCellBolder">
                                         <cells>
                                             <Text id="t2396we" text=" " />
                                             <Text id="ta396we" text=" " />
@@ -3219,14 +3221,14 @@
                                             <Text id="txt166we" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item4176we">
+                                    <ColumnListItem id="item4176we" class="custCellBold">
                                         <cells>
                                             <Text id="t13176we" text=" " />
                                             <Text id="ta3176we" text=" " />
                                             <Text id="txt176we" text="50,97,60,000" />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item4186we">
+                                    <ColumnListItem id="item4186we" class="custCellBold">
                                         <cells>
                                             <Text id="t13186we" text=" " />
                                             <Text id="ta3186we" text=" " />
@@ -3250,7 +3252,7 @@
                                 </items>
                             </Table>
                         </VBox>
-                        <VBox id= "v33566we">
+                        <VBox id= "v33566we" class="customVBox">
                             <HBox id="hhbbbox_qnt26ew" height="22px">
                                 <Text id="qnt26ew" text="Online Reverse Auction Offer"></Text>
                             </HBox>
@@ -3303,7 +3305,7 @@
                                             <Text id="texttxt34awe" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item155awe">
+                                    <ColumnListItem id="item155awe" class="custCellBolder">
                                         <cells>
                                             <Text id="text235wae" text=" " />
                                             <Text id="texta35awe" text=" " />
@@ -3331,7 +3333,7 @@
                                             <Text id="texttxt8awe" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item149awe">
+                                    <ColumnListItem id="item149awe" class="custCellBolder">
                                         <cells>
                                             <Text id="text239awe" text=" " />
                                             <Text id="texta39wae" text=" " />
@@ -3381,14 +3383,14 @@
                                             <Text id="texttxt16wae" text=" " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item1417awe">
+                                    <ColumnListItem id="item1417awe" class="custCellBold">
                                         <cells>
                                             <Text id="text1317awe" text=" " />
                                             <Text id="texta317awe" text=" " />
                                             <Text id="texttxt1a7we" text=" 31,86,00,000 " />
                                         </cells>
                                     </ColumnListItem>
-                                    <ColumnListItem id="item1418awe">
+                                    <ColumnListItem id="item1418awe" class="custCellBold">
                                         <cells>
                                             <Text id="text1318awe" text=" " />
                                             <Text id="texta318awe" text=" " />
@@ -3416,8 +3418,8 @@
 
                     </HBox>
                     <VBox id="sectioncomboboxid4">
-                        <ComboBox id="section1combobox4" placeholder="Online Reverse Auction Offer" core:require="{ handler: 'cbecomp/ext/fragment/Combobox'}" change="handler.onChangefun">
-                            <core:Item id="comboxitem144" text="Original Offer " />
+                        <ComboBox id="section1combobox4" placeholder="Online Reverse Auction Offer" core:require="{ handler: 'cbecomp/ext/fragment/Combobox'}" change="handler.onChangefun3">
+                            <core:Item id="comboxitem144" text="Original Offer" />
                             <core:Item id="comboxitem288" text="Online Reverse Auction Offer" />
                         </ComboBox>
                         <HBox id='newidid344'>
