@@ -521,8 +521,8 @@
             </form:Form>
 
         </VBox>
-        <ScrollContainer width="140%" height="auto" horizontal="true" vertical="false" id="scrollContainer">
-            <HBox id="secondSection" width="170%" wrap="NoWrap">
+        <ScrollContainer width="100%" height="auto" horizontal="true" vertical="false" id="scrollContainer">
+            <HBox id="secondSection" width="70vw" wrap="NoWrap">
                 <VBox id="sectionform1">
                     <form:Form id="sectionform112" editable="false">
                         <form:layout>
