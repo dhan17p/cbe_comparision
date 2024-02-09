@@ -134,6 +134,7 @@
                                 <Text id="tc7" text="{design_pressure_bar}" tooltip="{design_pressure_bar}" wrapping="false" />
                                 <Text id="tc8" text="{weights}" tooltip="{weights}" wrapping="false" />
                                 <Text id="tc9" text="{quantity}" tooltip="{quantity}" wrapping="false" />
+                                
 
                                 <!--  Bind other properties accordingly  -->
                             </cells>
@@ -555,10 +556,10 @@
                     <!-- ... (your existing form structure) ... -->
 
                     <!-- HBox for Tables -->
-                    <HBox id="tablesHBox" >
+                    <HBox id="tablesHBox">
                         <!-- Original Offer Table -->
 
-                        <VBox id= "v7677" >
+                        <VBox id= "v7677">
 
                             <HBox id="aelnsk" height="22px">
                                 <Text id="qnt" text="AEL/NSK/TPL/AV/PB/16054/2018-19, Rev-1"></Text>
@@ -720,7 +721,7 @@
                                 </items>
                             </Table>
                         </VBox>
-                        <VBox id= "v3356" >
+                        <VBox id= "v3356">
                             <HBox id="hhbbbox_qnt2" height="22px">
                                 <Text id="qnt2" text="Reverse Auction"></Text>
                             </HBox>
@@ -884,7 +885,7 @@
 
                             </Table>
                         </VBox>
-                        <VBox id= "v3356333" >
+                        <VBox id= "v3356333">
                             <HBox id="hhbbbox_qnt12" height="22px">
                                 <Text id="qnt12" text="E-Mail offer dated 30-04-2019"></Text>
                             </HBox>
